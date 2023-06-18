@@ -1,3 +1,13 @@
-# UC_projeto
-O repositório contém o PDF com o artigo final juntamente com o material suplementar necessário que se encontra numa pasta zippada.
-Para além disso contém ficheiros adicionais como os modelos de outros organismos, um bloco de notas para ir atualizando as reações adicionadas ao modelo e a informação retirada do NCBI referente ao assembly da estirpe 211/11P da Chlorella vulgaris.
+# Development of methane mitigation strategies using the microalga Chlorella vulgaris
+The objective of this project is two fold. Firstly, develop a genome-scale metabolic model for Chlorella vulgaris using merlin. Secondly, utilize this model to conduct in silico simulations and optimizations aiming at modelling the CH4 metabolization by the microalga.
+
+&#9679; for more information about merlin, visit the [merlin documentation page.](https://merlin-sysbio.org/documentation/)
+
+## Table of contents
+- "Chlorella_UTEX-395_Raven": Model of Chlorella vulgaris strain UTEX-395 as well as additional data;
+- "DB": Database created for BLAST;
+- "chlamydomonas_BIGG": Model for Chlamydomonas reinhardtii as well as additional data;
+- "ncbi_dataset_chlorella": Files downloaded from NCBI corresponding to the assembly of strain 211/11P of Chlorella vulgaris;
+- "Artigo_Final.pdf": Final article regarding this project;
+- "Gap-filling(reactions).txt": Notepad for keeping track of added reactions from gap-filling;
+- "Supplementary_material": Contains a PDF with additional material, an excel file for biomass composition; the current state of the model and scripts used;
