@@ -1,0 +1,22 @@
+Purine Metabolism: - 16 reactions; R01127; R04209; R04560; R01769; 
+Pyrimidine Metabolism - 5 reações
+------------------------------------------------------------------------ 
+Cysteine and methionine metabolism - 8 reações 
+Valine, leucine and isoleucine biosynthesis - 0 reações
+Valine, leucine and isoleucine degradation - 5 reações
+Lysine biosynthesis - 0 reações
+Lysine degradation (nem sei por onde começar)
+Arginine biosynthesis - 0 reações
+Arginine and proline metabolism - 0 reações
+Histidine metabolism - 1 reação; (2.1.1.-?)
+Tyrosine metabolism - 5 reações; 
+Phenylalanine metabolism - 2 reações
+Tryptophan metabolism - 0 reações; ha produçao de triptofano mas pergunto-me se não poderia haver me mais 2 maneiras (pelo menos)
+Phenylalanine, tyrosine and tryptophan biosynthesis - 1 reação adicionada
+-------------------------------------------------------------------------- 
+beta-Alanine metabolism - 0 reações
+Taurine and hypotaurine metabolism - 0 reações (2.3.2.2: ia adicionar mas nao tinha metabolito entao decidi deixar)
+Phosphonate and phosphinate metabolism - on going
+Selenocompound metabolism - on going
+Glutathione metabolism - on going
+
