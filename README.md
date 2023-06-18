@@ -3,7 +3,7 @@ The objective of this project is two fold. Firstly, develop a genome-scale metab
 
 &#9679; for more information about merlin, visit the [merlin documentation page.](https://merlin-sysbio.org/documentation/)
 
-## Table of contents
+## Repository content
 - "Chlorella_UTEX-395_Raven": Model of Chlorella vulgaris strain UTEX-395 as well as additional data;
 - "DB": Database created for BLAST;
 - "chlamydomonas_BIGG": Model for Chlamydomonas reinhardtii as well as additional data;
@@ -11,3 +11,7 @@ The objective of this project is two fold. Firstly, develop a genome-scale metab
 - "Artigo_Final.pdf": Final article regarding this project;
 - "Gap-filling(reactions).txt": Notepad for keeping track of added reactions from gap-filling;
 - "Supplementary_material": Contains a PDF with additional material, an excel file for biomass composition; the current state of the model and scripts used;
+
+## Author 
+
+Email: pg49834@alunos.uminho.pt
