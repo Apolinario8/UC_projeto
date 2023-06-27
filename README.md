@@ -2,6 +2,7 @@
 The objective of this project is two fold. Firstly, develop a genome-scale metabolic model for Chlorella vulgaris using merlin. Secondly, utilize this model to conduct in silico simulations and optimizations aiming at modelling the CH4 metabolization by the microalga.
 
 &#9679; for more information about merlin, visit the [merlin documentation page.](https://merlin-sysbio.org/documentation/)
+&#9679; for details about the project [CH4GREEN.](https://www.ceb.uminho.pt/bfactory/Projects/Details/6255)
 
 ## Repository content
 - "Chlorella_UTEX-395_Raven": Model of Chlorella vulgaris strain UTEX-395 as well as additional data;
