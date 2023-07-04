@@ -1,0 +1,42 @@
+Members of the class Chlorophyceae contain α- and β-carotenes as well as the xanthophylls lutein, zeaxanthin, violaxanthin, and neoxanthin.
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+CAROTENOID BIOSYNTHESIS:   ver R05345 (1.14.99.63)
+
+Information gathered from C. vulgaris UTEX-395
+
+-> Bajguz shows that Chlorella vulgaris can synthesize abscisic acid
+-reactions associated that need to be added: R06957 (1.2.3.14), R06954 (1.1.1.288)
+
+-> Cui et al. describe this pathway in C. variabilis and other eukaryotic algae
+-reactions associated that need to be added: R06963 (CrL-e ou 5.5.1.18), R07840 (5.5.1.18)
+
+-> Watanabe et al. describe the effects of cold acclimation on the zeta-carotene desaturase enzyme, and also the yields of alpha-carotene, lutein, beta-carotene, zeaxanthin, violaxanthin and neoxanthin in Chlorella vulgaris
+-reactions associated that need to be added: R06948 (5.3.99.9) 
+
+-> other reactions: 
+R07850 (1.14.14.158); R07531 (1.14.14.158); R09655 (5.2.1.12); R09656, R09658, R04798, R04800 (1.3.5.6)
+------------------------------------------------------------------------------------------------------------------------------------- 
+UBIQUINONE AND OTHER TERPENOID-QUINONE BIOSINTHESYS:
+
+Information gathered from C. vulgaris UTEX-395
+
+-> Rohmer et al. describes a route of isoprenoid synthesis including ubiquinone, plastiquinone, and menaquinone
+-reactions associated that need to be added: R07262 (3.2.1.28); R08782 (2.5.1.117); R10709 (2.1.1.295); R10708 (2.5.1.116); R10710 (2.1.1.295);
+                                             R10491 (2.1.1.96); R10624 (5.5.1.24); R10492 (2.1.1.95); R10623 (5.5.1.24); R01717 (5.4.4.2);
+				             R08166 (4.2.99.20); R04031 (4.2.1.113); R01302 (4.1.3.40); R08770 (COQ6,nao sei); R08772 (nao aparece caixinha);
+					     R12658 (nao sei)
+
+-> other reactions: R12067 (1.14.99.60); 	
+---------------------------------------------------------------------------------------------------------------------------------
+PHORPHYRIN METABOLISM   (perguntar parte de cima da pathway, reaçoes sem caixinha e sem enzima associada?)
+
+Information gathered from C. vulgaris UTEX-395
+
+-> R04155 (sem info), R02393 (1.3.1.24), R04178 (1.3.3.15), R04124 (msm da R04155), R07412 (1.17.99.9, nao encontrei aceitador e dador),
+ R04123 (1.16.1.2, blast deu sem resultados), R03194 (2.1.1.107), 
+
+-> Böger characterized chlorophyllase in Chlorella vulgaris Beijerinck.
+R05618 (3.1.1.14)
+
+-> other reactions: R00310 (4.98.1.1), R02391 (1.3.1.24), R09068 (3.1.1.14)
