@@ -4,7 +4,7 @@ ARGININE AND PROLINE METABOLISM
 R04444 (1.2.1.88), R05051 (1.2.1.88), R04445 (1.2.1.88), R00708 (1.2.1.88), R00707 (1.2.1.88), R00245 (1.2.1.88), 
 
 -> Other reactions
-R00551 (3.5.3.1-no results swiss-prot), 
+R00551 (3.5.3.1-no results swiss-prot), R03314 (Non-enzimatic)
 ------------------------------------------------------------------------------------------------------------------------------------------
 PHENYLALANINE, TYROSINE AND TRYPTOPHAN BIOSINTHESIS
 
@@ -36,6 +36,8 @@ R07618 (1.8.1.4)
 -------------------------------------------------------------------------------------------------------------------------------------------
 LYSINE BIOSINTHESYS ... adicionar 1.2.1.95?
 
+R07613 (2.6.1.83, meti a reaçao como sendo reversível)
+
 -> Information gathered from C. vulgaris UTEX-395
 R01939 (2.6.1.39), R01934 (1.1.1.286/1.1.1.87), R04371 (4.2.1.114/4.2.1.36), R03444 (4.2.1.114), R00715 (1.5.1.7 - sem gene associado, mau resultado blast)
 R02315 (1.5.1.10 - msm coisa do anterior), R00271 (2.3.3.14), 
@@ -43,7 +45,7 @@ R02315 (1.5.1.10 - msm coisa do anterior), R00271 (2.3.3.14),
 ALANINE AND ASPARTATE METABOLISM
 
 -> Information gathered from C. vulgaris UTEX-395 
-R00576 (2.6.1.15-no results swiss-prot), 
+R00576 (2.6.1.15-no results swiss-prot -> a enzima tem 2 subunidades, como fazer?)
 
 -> Other reactions
 R00707/R00708 (1.2.1.88)
@@ -51,7 +53,7 @@ R00707/R00708 (1.2.1.88)
 BETA-ALANINE METABOLISM
 
 ->Information gathered from C. vulgaris UTEX-395
-R03288 (3.4.13.20), R01166 (3.4.13.18), R01914 (1.5.99.6-no results swiss-prot), R00978 (1.3.1.2)
+R03288 (3.4.13.20), R01166 (3.4.13.18), R01914 (1.5.99.6-no results swiss-prot -> (KAI3427137.1 ainda nao meti, confirmar), R00978 (1.3.1.2)
 -------------------------------------------------------------------------------------------------------------------------------------------
 CYSTEINE AND METHIONINE METABOLISM
 
@@ -67,13 +69,13 @@ GLUTAMATE METABOLISM
 R00256 (3.5.1.2), R00093 (1.4.1.14), R00243 (1.4.1.3), 
 
 -> Other reactions
-R00708 ou R00707 (1.2.1.88) -NADPH ou NADH?, 
+R00708 ou R00707 (1.2.1.88) -NADPH ou NADH?, meti com NADP porque tinha com "compare", 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 GLYCINE, SERINE AND THREONINE METABOLISM
 
 -> Information gathered from C. vulgaris UTEX-395
-R00371 (2.3.1.29), R01514 (2.7.1.31), R00372 (2.6.1.4/2.6.1.44), R00588 (2.6.1.45), R00751 (4.1.2.5-no results swiss-prot), R01290 (4.1.2.22), 
-R00891(4.2.1.22), 
+R00371 (2.3.1.29), R01514 (2.7.1.31), R00372 (2.6.1.4/2.6.1.44), R00588 (2.6.1.45), R00751 (4.1.2.5-no results swiss-prot(tem no compare, fiz blast nao deu nada na mesma), 
+R01290 (4.1.2.22), R00891(4.2.1.22), 
 --------------------------------------------------------------------------------------------------------------------------------------------
 HISTIDINE METABOLISM
 

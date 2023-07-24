@@ -1,0 +1,10 @@
+para ter tiamine:
+EX_C00058 (Drain to Formate) -> R03472
+EX_C00237 (Drain to CO) -> R03472
+
+--------------------------------------------------------
+tmb para ter tiamina:
+
+meta_R_RXN_21315
+meta_R_RXN_21317 
+meta_R_R12612
