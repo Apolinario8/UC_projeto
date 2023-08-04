@@ -1,0 +1,403 @@
+Lipid: mgdg1819Z160 -> Monogalactosyldiacylglycerol (18:1(9Z)/16:0)                      #faltam as reaçaões do ultimo 
+FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+Hexadecanoyl-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00154 + BMGC272 --> BMGC273 + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC273 + C00001 --> BMGC65022 + C00009
+
+__cytop
+1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z-octadecenoyl)-2-hexadecanoyl-3-beta-D-galactosyl-sn-glycerol + UDP
+BMGC65022 + C00052 --> MGDG1819Z160 + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1819Z1617Z -> Monogalactosyldiacylglycerol (18:1(9Z)/16:1(7Z))                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"7Z-hexadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(7Z-Hexadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(7Z-hexadecenoyl)-sn-glycero-3-phosphate + CoA
+fa1617zCoA + BMGC272 --> pa1819z1617z + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-(7Z-hexadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(7Z-hexadecenoyl)-sn-glycerol + Orthophosphate
+pa1819z1617z + C00001 --> dag1819z1617z + C00009
+
+__cytop
+1-(9Z-octadecenoyl)-2-(7Z-hexadecenoyl)-sn-glycero-3-phosphate-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z-octadecenoyl)-2-(7Z-hexadecenoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1819z1617z + C00052 --> mgdg1819z1617z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1819Z1619Z -> Monogalactosyldiacylglycerol (18:1(9Z)/16:1(9Z))                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"9Z-hexadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 + BMGC272 + C00010
+
+__cytop
+(9Z-Hexadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(9Z-hexadecenoyl)-sn-glycero-3-phosphate + CoA
+C21072 + BMGC272 --> BMGC38266 + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-(9Z-hexadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(9Z-hexadecenoyl)-sn-glycerol + Orthophosphate
+BMGC38266 + C00001 --> BMGC63825 + C00009
+
+__cytop
+1-(9Z-octadecenoyl)-2-(9Z-hexadecenoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z-octadecenoyl)-2-(9Z-hexadecenoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+BMGC63825 + C00052 --> MGDG1819Z1619Z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1819Z1627Z10Z -> Monogalactosyldiacylglycerol (18:1(9Z)/16:2(7Z,10Z))                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"7Z,10Z-hexadecadienoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(7Z,10Z-hexadecadienoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(7Z,10Z-hexadecadienoyl)-sn-glycero-3-phosphate + CoA
+fa1627z10zCoA + BMGC272 --> pa1819z1627z10z + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-(7Z,10Z-hexadecadienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(7Z,10Z-hexadecadienoyl)-sn-glycerol + Orthophosphate
+pa1819z1627z10z + C00001 --> dag1819z1627z10z + C00009
+
+__cytop
+1-(9Z-octadecenoyl)-2-(7Z,10Z-hexadecadienoyl)-sn-glycero-3-phosphate-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z-octadecenoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1819z1627z10z + C00052 --> MGDG1819Z1627Z10Z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1819Z1637Z10Z13Z -> Monogalactosyldiacylglycerol (18:1(9Z)/16:2(7Z,10Z,13Z))                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"7Z,10Z,13Z-hexadecatrienoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(7Z,10Z,13Z-hexadecatrienoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-sn-glycero-3-phosphate + CoA
+fa1637z10z13zCoA + BMGC272 --> pa1819z1637z10z13z + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-sn-glycerol + Orthophosphate
+pa1819z1637z10z13z + C00001 --> dag1819z1637z10z13z + C00009
+
+__cytop
+1-(9Z-octadecenoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-sn-glycero-3-phosphate-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z-octadecenoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1819z1637z10z13z + C00052 --> mgdg1819z1637z10z13z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1829Z12Z160 -> Monogalactosyldiacylglycerol (18:2(9Z,12Z)/16:0)                      
+FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA", 2-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z-octadecadienoyl)-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C02050 --> BMGC401 + C00010
+
+__cytop
+Hexadecanoyl-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00154 + BMGC401 --> BMGC34847 + C00010
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC34847 + C00001 --> BMGC63814 + C00009
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-3-beta-D-galactosyl-sn-glycerol + UDP
+BMGC63814 + C00052 --> MGDG1829Z12Z160 + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1829Z12Z1617Z -> Monogalactosyldiacylglycerol (18:2(9Z,12Z)/16:1(7Z))                     
+FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA", 2-"7Z-hexadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z-octadecadienoyl)-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C02050 --> BMGC401 + C00010
+
+__cytop
+(7Z-hexadecenoyl)-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z-octadecadienoyl)-2-(7Z-hexadecenoyl)-sn-glycero-3-phosphate + CoA
+fa1617zCoA + BMGC401 --> pa1829z12z1617z + C00010
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(7Z-hexadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-octadecadienoyl)-2-(7Z-hexadecenoyl)-sn--glycerol + Orthophosphate
+pa1829z12z1617z + C00001 --> dag1829z12z1617z + C00009
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(7Z-hexadecenoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z-octadecadienoyl)-2-(7Z-hexadecenoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1829z12z1617z + C00052 --> mgdg1829z12z1617z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1829Z12Z1619Z -> Monogalactosyldiacylglycerol (18:2(9Z,12Z)/16:1(9Z))                     
+FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA", 2-"9Z-hexadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z-octadecadienoyl)-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C02050 --> BMGC401 + C00010
+
+__cytop
+(9Z-hexadecenoyl)-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z-octadecadienoyl)-2-(9Z-hexadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC401 --> BMGC34836 + C00010
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(9Z-hexadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-octadecadienoyl)-2-(9Z-hexadecenoyl)-sn-glycerol + Orthophosphate
+BMGC34836 + C00001 --> BMGC63719 + C00009
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(9Z-hexadecenoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z-octadecadienoyl)-2-(9Z-hexadecenoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+BMGC63719 + C00052 --> MGDG1829Z12Z1619Z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1829Z12Z1627Z10Z -> Monogalactosyldiacylglycerol (18:2(9Z,12Z)/16:2(7Z,10Z))                     
+FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA", 2-"7Z,10Z-hexadecadienoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z-octadecadienoyl)-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C02050 --> BMGC401 + C00010
+
+__cytop
+(7Z,10Z-hexadecadienoyl)-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-sn-glycero-3-phosphate + CoA
+fa1627z10zCoA + BMGC401 --> pa1829z12z1627z10z + C00010
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-sn-glycerol + Orthophosphate
+pa1829z12z1627z10z + C00001 --> dag1829z12z1627z10z + C00009
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1829z12z1627z10z + C00052 --> mgdg1829z12z1627z10z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1829Z12Z1634Z7Z10Z -> Monogalactosyldiacylglycerol (18:2(9Z,12Z)/16:3(4Z,7Z,10Z))                     
+FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA", 2-"4Z,7Z,10Z-hexadecatrienoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z-octadecadienoyl)-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C02050 --> BMGC401 + C00010
+
+__cytop
+(4Z,7Z,10Z-hexadecatrienoyl)-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z-hexadecatrienoyl)-sn-glycero-3-phosphate + CoA
+fa1634z7z10zCoA + BMGC401 --> pa1829z12z1634z7z10z + C00010
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z-hexadecatrienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z-hexadecatrienoyl)-sn-glycerol + Orthophosphate
+pa1829z12z1634z7z10z + C00001 --> dag1829z12z1634z7z10z + C00009
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z-hexadecatrienoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z-hexadecatrienoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1829z12z1634z7z10z + C00052 --> mgdg1829z12z1634z7z10z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1829Z12Z1637Z10Z13Z -> Monogalactosyldiacylglycerol (18:2(9Z,12Z)/16:3(7Z,10Z,13Z))                     
+FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA", 2-"7Z,10Z,13Z-hexadecatrienoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z-octadecadienoyl)-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C02050 --> BMGC401 + C00010
+
+__cytop
+(7Z,10Z,13Z-hexadecatrienoyl)-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-sn-glycero-3-phosphate + CoA
+fa1637z10z13zCoA + BMGC401 --> pa1829z12z1637z10z13z + C00010
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-sn-glycerol + Orthophosphate
+pa1829z12z1637z10z13z + C00001 --> dag1829z12z1637z10z13z + C00009
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z,13Z-hexadecatrienoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1829z12z1637z10z13z + C00052 --> mgdg1829z12z1637z10z13z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1829Z12Z1644Z7Z10Z13Z -> Monogalactosyldiacylglycerol (18:2(9Z,12Z)/16:4(4Z,7Z,10Z,13Z))                     
+FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA", 2-"4Z,7Z,10Z,13Z-hexadecatetraenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z-octadecadienoyl)-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C02050 --> BMGC401 + C00010
+
+__cytop
+(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-sn-glycero-3-phosphate + CoA
+fa1644z7z10z13zCoA + BMGC401 --> pa1829z12z1644z7z10z13z + C00010
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-sn-glycerol + Orthophosphate
+pa1829z12z1644z7z10z13z + C00001 --> dag1829z12z1644z7z10z13z + C00009
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1829z12z1644z7z10z13z + C00052 --> mgdg1829z12z1644z7z10z13z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1839Z12Z15Z160 -> Monogalactosyldiacylglycerol (18:3(9Z,12Z,15Z)/16:0)                      
+FattyAcids:  1-"9Z,12Z,15Z-octadecatrienoyl-CoA", 2-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z,15Z-octadecatrienoyl)-CoA => 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C16162 --> BMGC403 + C00010
+
+__cytop
+Hexadecanoyl-CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00154 + BGMC403 --> BMGC34690 + C00010
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC34690 + C00001 --> BMGC63713 + C00009
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-3-beta-D-galactosyl-sn-glycerol + UDP
+BMGC63713 + C00052 --> MGDG1839Z12Z15Z160 + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1839Z12Z15Z1627Z10Z -> Monogalactosyldiacylglycerol (18:3(9Z,12Z,15Z)/16:2)(7Z,10Z))                      
+FattyAcids:  1-"9Z,12Z,15Z-octadecatrienoyl-CoA", 2-"7z,10z-hexadecadienoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z,15Z-octadecatrienoyl)-CoA => 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C16162 --> BMGC403 + C00010
+
+__cytop
+(7z,10z-hexadecadienoyl)-CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z-hexadecadienoyl)-sn-glycero-3-phosphate + CoA
+fa1627z10zCoA + BMGC403 --> pa1839z12z15z1627z10z + C00010
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z-hexadecadienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z-hexadecadienoyl)-sn-glycerol + Orthophosphate
+pa1839z12z15z1627z10z + C00001 --> dag1839z12z15z1627z10z + C00009
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z-hexadecadienoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1839z12z15z1627z10z + C00052 --> mgdg1839z12z15z1627z10z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1839Z12Z15Z1634Z7Z10Z -> Monogalactosyldiacylglycerol (18:3(9Z,12Z,15Z)/16:3)(4Z,7Z,10Z))                      
+FattyAcids: 1-"9Z,12Z,15Z-octadecatrienoyl-CoA", 2-"4Z,7z,10z-hexadecatrienoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z,15Z-octadecatrienoyl)-CoA => 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C16162 --> BMGC403 + C00010
+
+__cytop
+(4Z,7z,10z-hexadecatrienoyl)-CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z-hexadecatrienoyl)-sn-glycero-3-phosphate + CoA
+fa1634z7z10zCoA + BMGC403 --> pa1839z12z15z1634z7z10z + C00010
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z-hexadecatrienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z-hexadecatrienoyl)-sn-glycerol + Orthophosphate
+pa1839z12z15z1634z7z10z + C00001 --> dag1839z12z15z1634z7z10z + C00009
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z-hexadecatrienoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z-hexadecatrienoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1839z12z15z1634z7z10z + C00052 --> mgdg1839z12z15z1634z7z10z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1839Z12Z15Z1634Z7Z10Z -> Monogalactosyldiacylglycerol (18:3(9Z,12Z,15Z)/16:3)(7Z,10Z,13Z))                      
+FattyAcids:  1-"9Z,12Z,15Z-octadecatrienoyl-CoA", 2-"7z,10z,13Z-hexadecatrienoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z,15Z-octadecatrienoyl)-CoA => 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C16162 --> BMGC403 + C00010
+
+__cytop
+(7z,10z,13Z-hexadecatrienoyl)-CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z,13Z-hexadecatrienoyl)-sn-glycero-3-phosphate + CoA
+fa1637z10z13zCoA + BMGC403 --> pa1839z12z15z1637z10z13z + C00010
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z,13Z-hexadecatrienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z,13Z-hexadecatrienoyl)-sn-glycerol + Orthophosphate
+pa1839z12z15z1637z10z13z + C00001 --> dag1839z12z15z1637z10z13z + C00009
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z,13Z-hexadecatrienoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7z,10z,13Z-hexadecatrienoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1839z12z15z1637z10z13z + C00052 --> mgdg1839z12z15z1637z10z13z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: mgdg1839Z12Z15Z1644Z7Z10Z13Z -> Monogalactosyldiacylglycerol (18:3(9Z,12Z,15Z)/16:4)(4Z,7Z,10Z,13Z))                      
+FattyAcids:  1-"9Z,12Z,15Z-octadecatrienoyl-CoA", 2-"4Z,7z,10z,13Z-hexadecatetraenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z,15Z-octadecatrienoyl)-CoA => 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C16162 --> BMGC403 + C00010
+
+__cytop
+(4Z,7z,10z,13Z-hexadecatetraenoyl)-CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4z,7z,10Z,13-hexadecatetraenoyl)-sn-glycero-3-phosphate + CoA
+fa1644z7z10z13zCoA + BMGC403 --> pa1839z12z15z1644z7z10z13z + C00010
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z,13Z-hexadecatetraenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z,13Z-hexadecatetraenoyl)-sn-glycerol + Orthophosphate
+pa1839z12z15z1644z7z10z13z + C00001 --> dag1839z12z15z1644z7z10z13z + C00009
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z,13Z-hexadecatetraenoyl)-sn-glycerol + UDP-alpha-D-galactose => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7z,10z,13Z-hexadecatetraenoyl)-3-beta-D-galactosyl-sn-glycerol + UDP
+dag1839z12z15z1644z7z10z13z + C00052 --> mgdg1839z12z15z1644z7z10z13z + C00015
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

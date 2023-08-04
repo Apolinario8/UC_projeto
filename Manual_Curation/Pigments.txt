@@ -36,7 +36,7 @@ PHORPHYRIN METABOLISM   (perguntar parte de cima da pathway, reaçoes sem caixin
 Information gathered from C. vulgaris UTEX-395
 
 -> R04155 (sem info), R02393 (1.3.1.24), R04178 (1.3.3.15), R04124 (msm da R04155), R07412 (1.17.99.9, nao encontrei aceitador e dador),
- R04123 (1.16.1.2, blast deu sem resultados), R03194 (2.1.1.107), 
+ R04123 (1.16.1.2 -> KAI3436428.1), R03194 (2.1.1.107), 
 
 -> Böger characterized chlorophyllase in Chlorella vulgaris Beijerinck.
 R05618 (3.1.1.14)

@@ -1,0 +1,279 @@
+
+pg1839Z12Z15Z160 - 3716	- Phosphatidylglycerol (1-(9Z,12Z,15Z)-octadecatrienoyl,2-hexadecanoyl, 18:3(9Z,12Z,15Z)/16:0)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BMGR3419__cytop: 
+(9Z,12Z,15Z)-Octadecatrienoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate
+C00093__cytop + C16162__cytop --> BMGC403__cytop + C00010__cytop
+
+
+BMGR0169__cytop: 
+Palmitoyl-CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate => CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate
+BMGC403__cytop + C00154__cytop --> BMGC34690__cytop + C00010__cytop
+
+
+BMGR0560__cytop: 
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CTP => Diphosphate + CDP-1-hexadecanoyl-2-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycerol
+BMGC34690__cytop + C00063__cytop --> BMGC524331__cytop + C00013__cytop
+
+
+BMGR0502__cytop: 
+CDP-1-hexadecanoyl-2-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycerol + CDP-diacylglycerol => CMP + H+ + 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol-3'-phosphate)
+BMGC524331__cytop + C00093__cytop --> BMGC293319__cytop + C00055__cytop + C00080__cytop
+
+
+BMGR0453__cytop: 
+H2O + -(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol-3'-phosphate) => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + Orthophosphate
+BMGC293319__cytop + C00001__cytop --> BMGC3716__cytop + C00009__cytop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+pc1819z1829z12z	- 415 - Phosphatidylcholine(18:1(9Z)/18:2(9Z,12Z))
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sn-Glycerol 3-phosphate + Linoleoyl-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093__cytop + C02050__cytop --> BMGC401__cytop + C00010__cytop
+
+
+Linoleoyl-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => CoA + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate
+BMGC401__cytop + C02050__cytop --> BMGC38415__cytop + C00010__cytop
+
+
+H+ + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CTP => CDP-1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycerol + Diphosphate
+C00080 + BMGC38415__cytop + C00063__cytop --> BMGC239951__cytop + C00013__cytop
+
+
+myo-Inositol + CDP-1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycerol => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phospho-1D-myo-inositol + CMP + H+ 
+BMGC239951__cytop + C00137__cytop --> BMGC43111__cytop + C00055__cytop + C00080__cytop
+
+
+1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phospho-1D-myo-inositol + H2O => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycerol + H+ + Inositol 1-phosphate
+BMGC43111__cytop + C00001__cytop --> BMGC68217__cytop + C00080__cytop + C01177__cytop
+
+
+1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycerol + CDP-ethanolamine => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+BMGC68217__cytop + C00570__cytop --> BMGC12582__cytop + C00055__cytop + C00080__cytop
+
+
+1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((9Z,12Z)-octadecadienoate) + S-Adenosyl-L-homocysteine + H+ 
+BMGC12582__cytop + C00019__cytop --> BMGC722755__cytop + C00021__cytop + C00080__cytop
+
+
+CPD-405 ((9Z,12Z)-octadecadienoate) + CPD-160 ((9Z,12Z)-octadecadienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + H+
+BMGC722755__cytop + C00019__cytop --> BMGC712826__cytop + C00021__cytop + C00080__cytop
+
+
+CPD-160 ((9Z,12Z)-octadecadienoate) + S-Adenosyl-L-methionine => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+BMGC712826__cytop + C00019__cytop --> BMGC39677__cytop + C00021__cytop + C00080__cytop
+
+
+1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Oxygen + 2 H+ + Ferrocytochrome b5  => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + 2 H2O + Ferricytochrome b5 
+BMGC39677__cytop + C00007__cytop + 2.0 C00080__cytop + C00999__cytop --> BMGC37021__cytop + 2.0 C00001__cytop + C00996__cytop
+
+
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H2O => 2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H+ + (9Z,12Z,15Z)-Octadecatrienoic acid
+BMGC37021__cytop + C00001__cytop --> BMGC1242__cytop + C00080__cytop + C06427__cytop
+
+
+2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Stearoyl-CoA => 1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + CoA 
+BMGC1242__cytop + C00412__cytop --> BMGC45682__cytop + C00010__cytop
+
+
+1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H2O => 2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H+ + Octadecanoic acid
+BMGC45682__cytop + C00001__cytop --> BMGC1242__cytop + C00080__cytop + C01530__cytop
+
+
+2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Linoleoyl-CoA => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + CoA
+BMGC1242__cytop + C02050__cytop --> BMGC39677__cytop + C00010__cytop
+
+
+1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-sn-glycerol => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-3-(9Z,12Z-octadecadienoyl)-sn-glycerol
+BMGC39677__cytop + dag1829Z12Z164Z7Z12Z15Z__cytop --> BMGC6941__cytop + tag1829Z12Z164Z7Z12Z15Z1829Z12Z__cytop
+
+
+1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Linoleoyl-CoA <=> 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + CoA
+BMGC6941__cytop + C02050__cytop <=> BMGC39677__cytop + C00010__cytop
+
+
+1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H2O => 2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H+ + Linoleate
+BMGC39677__cytop + C00001__cytop --> BMGC1242__cytop + C00080__cytop + C01595__cytop
+
+
+2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Oleoyl-CoA => 1-(9Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + CoA
+BMGC1242__cytop + C00510__cytop --> BMGC415__cytop + C00010__cytop
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+tag1601819Z180 - 0 - 98270,
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BMGR0441__cytop
+sn-Glycerol 3-phosphate + Linoleoyl-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093__cytop + C02050__cytop --> BMGC401__cytop + C00010__cytop
+
+
+BMGR0161__cytop
+BMGC401__cytop + C02050__cytop --> BMGC38415__cytop + C00010__cytop
+Linoleoyl-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => CoA + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate
+
+
+BMGR0602__cytop
+BMGC38415__cytop + C00063__cytop --> BMGC239951__cytop + C00013__cytop
+H+ + Phosphatidate + CTP => Diphosphate + CDP-diacylglycerol
+
+
+BMGR1334__cytop
+BMGC239951__cytop + C00137__cytop --> BMGC43111__cytop + C00055__cytop + C00080__cytop
+myo-Inositol + CDP-1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycerol => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phospho-1D-myo-inositol + CMP + H+
+
+
+BMGR5960__cytop
+BMGC43111__cytop + C00001__cytop --> BMGC68217__cytop + C00080__cytop + C01177__cytop
+1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phospho-1D-myo-inositol + H2O => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycerol + H+ + Inositol 1-phosphate
+
+
+BMGR0006__cytop
+BMGC68217__cytop + C00570__cytop --> BMGC12582__cytop + C00055__cytop + C00080__cytop
+1,2-Diacyl-sn-glycerol + CDP-ethanolamine => Phosphatidylethanolamine + CMP + H+
+
+
+BMGR1162__cytop
+BMGC12582__cytop + C00019__cytop --> BMGC722755__cytop + C00021__cytop + C00080__cytop
+S-Adenosyl-L-methionine + Phosphatidylethanolamine => S-Adenosyl-L-homocysteine + H+ + Phosphatidyl-N-methylethanolamine
+
+
+BMGR1117__cytop
+BMGC722755__cytop + C00019__cytop --> BMGC712826__cytop + C00021__cytop + C00080__cytop
+S-Adenosyl-L-methionine + Phosphatidyl-N-methylethanolamine => S-Adenosyl-L-homocysteine + H+ + Phosphatidyl-N-dimethylethanolamine
+
+
+BMGR0970__cytop
+BMGC712826__cytop + C00019__cytop --> BMGC39677__cytop + C00021__cytop + C00080__cytop
+S-Adenosyl-L-methionine + Phosphatidyl-N-dimethylethanolamine => S-Adenosyl-L-homocysteine + H+ + Phosphatidylcholine
+
+
+BMGR1276__cytop
+BMGC39677__cytop + C00007__cytop + 2.0 C00080__cytop + C00999__cytop --> BMGC37021__cytop + 2.0 C00001__cytop + C00996__cytop
+Oxygen + 2 H+ + Ferrocytochrome b5 + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine => 2 H2O + Ferricytochrome b5 + 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+
+
+BMGR3241__cytop
+BMGC37021__cytop + C00001__cytop --> BMGC1242__cytop + C00080__cytop + C06427__cytop
+H2O + 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine => 2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H+ + (9Z,12Z,15Z)-Octadecatrienoic acid
+
+
+BMGR5952__cytop
+BMGC1242__cytop + C00412__cytop --> BMGC45682__cytop + C00010__cytop
+2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Stearoyl-CoA => CoA + 1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+
+
+BMGR5904__cytop
+BMGC45682__cytop + C00001__cytop --> BMGC1242__cytop + C00080__cytop + C01530__cytop
+H2O + 1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine => 2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H+ + Octadecanoic acid
+
+
+BMGR5950__cytop
+BMGC1242__cytop + C02050__cytop --> BMGC39677__cytop + C00010__cytop
+2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Linoleoyl-CoA => CoA + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+
+
+BMGR5663__cytop
+BMGC39677__cytop + dag1829Z12Z164Z7Z12Z15Z__cytop --> BMGC6941__cytop + tag1829Z12Z164Z7Z12Z15Z1829Z12Z__cytop
+1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-sn-glycerol + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-3-(9Z,12Z-octadecadienoyl)-sn-glycerol
+
+
+BMGR1019__cytop
+BMGC6941__cytop + C02050__cytop <=> BMGC39677__cytop + C00010__cytop
+1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Linoleoyl-CoA <=> CoA + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+
+
+BMGR5902__cytop
+BMGC39677__cytop + C00001__cytop --> BMGC1242__cytop + C00080__cytop + C01595__cytop
+H2O + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine => 2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + H+ + Linoleate
+
+
+BMGR5953__cytop
+BMGC1242__cytop + C00510__cytop --> BMGC415__cytop + C00010__cytop
+2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + Oleoyl-CoA => CoA + 1-(9Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+tag1819Z1819Z180 - 111564
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C00093__cytop + C02050__cytop --> BMGC401__cytop + C00010__cytop
+sn-Glycerol 3-phosphate + Linoleoyl-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+
+
+BMGC401__cytop + C02050__cytop --> BMGC38415__cytop + C00010__cytop
+Linoleoyl-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => CoA + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate
+
+
+BMGC38415__cytop + C00007__cytop + 2.0 C00080__cytop + 2.0 C00138__cytop --> BMGC29909__cytop + 2.0 C00001__cytop + 2.0 C00139__cytop
+Oxygen + 2 H+ + 2 Reduced ferredoxin + 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 2 H2O + 1-(6Z,9Z,12Z-octadecatrienoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + 2 Oxidized ferredoxin
+
+
+BMGC29909__cytop + C00007__cytop + 2.0 C00080__cytop + 2.0 C00138__cytop --> BMGC38401__cytop + 2.0 C00001__cytop + 2.0 C00139__cytop
+Oxygen + 1-(6Z,9Z,12Z-octadecatrienoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + 2 H+ + 2 Reduced ferredoxin => 2 H2O + 1,2-di-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphate + 2 Oxidized ferredoxin
+
+
+BMGC38401__cytop + C00063__cytop + C00080__cytop --> BMGC544525__cytop + C00013__cytop
+1,2-di-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphate + H+ + CTP => CDP-1,2-di-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + Diphosphate
+
+
+BMGC544525__cytop + C00093__cytop --> BMGC296497__cytop + C00055__cytop + C00080__cytop
+CDP-1,2-di-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + sn-Glycerol 3-phosphate => 1,2-di-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phospho-(1'-sn-glycerol-3'-phosphate) + CMP + H+
+
+
+BMGC296497__cytop + C00001__cytop --> BMGC7439__cytop + C00009__cytop
+H2O + 1,2-di-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phospho-(1'-sn-glycerol-3'-phosphate) => Orthophosphate + 1,2-di-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phospho-(1'-sn-glycerol)
+
+
+BMGC70110__cytop + BMGC7439__cytop --> BMGC16348__cytop + BMGC86896__cytop
+1,2-di-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phospho-(1'-sn-glycerol) + 1,2-di-(9Z-octadecenoyl)-sn-glycerol => 1,2-di-(9Z-octadecenoyl)-3-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + 1-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phospho-(1'-sn-glycerol)
+
+
+BMGC86896__cytop + C00001__cytop --> BMGC70110__cytop + C00080__cytop + C06426__cytop
+1,2-di-(9Z-octadecenoyl)-3-(6Z,9Z,12Z-octadecatrienoyl)-sn-glycerol (lip) + H2O (cytop) => H+ (cytop) + (6Z,9Z,12Z)-Octadecatrienoic acid (cytop) + 1,2-di-(9Z-octadecenoyl)-sn-glycerol (lip)
+
+
+BMGC70110__cytop + C00001__cytop --> BMGC53017__cytop + C00080__cytop + C00712__cytop
+H2O (cytop) + 1,2-di-(9Z-octadecenoyl)-sn-glycerol (lip) => H+ (cytop) + (9Z)-Octadecenoic acid (cytop) + 1-(9Z-octadecenoyl)-sn-glycerol (lip)
+
+
+BMGC53017__cytop + C00510__cytop --> BMGC70110__cytop + C00010__cytop
+(9Z)-octadecenoyl-CoA + 1-(9Z-octadecenoyl)-sn-glycerol => CoA + 1,2-di-(9Z-octadecenoyl)-sn-glycerol
+
+
+BMGC70110__cytop + C00412__cytop --> BMGC111564__cytop + C00010__cytop
+Stearoyl-CoA + 1,2-di-(9Z-octadecenoyl)-sn-glycerol => 1,2-di-(9Z-octadecenoyl)-3-octadecanoyl-sn-glycerol + CoA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

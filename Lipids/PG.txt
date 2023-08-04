@@ -1,0 +1,25 @@
+Lipid: pg18111Z1613E -> Phosphatidylglycerol (1-(11Z)-octadecenoyl,2-(3E)-hexadecenoyl, 18:1(11Z)/16:1(3E))     #confirmar as enzimas que meti nas reações!
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"3E-hexadecanoyl-CoA"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+__cytop: 	
+(11Z)-octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate
+C21945 + C00093 --> C00010 + BMGC6809
+
+__cytop: 
+3E-hexadecanoyl-CoA + 1-(11z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(11Z-octadecenoyl)-2-(3E-hexadecanoyl)-sn-glycero-3-phosphate
+fa1613ECoA + BMGC6809 --> C00010 + pa18111Z1613E
+
+
+__cytop: 
+1-(11Z-octadecenoyl)-2-(3E-hexadecanoyl)-sn-glycero-3-phosphate + CTP => Diphosphate + CDP-1-(11Z-octadecenoyl))-2-(3E-hexadecanoyl)-sn-glycerol
+pa18111Z1613E + C00063 --> C00013 + CDP-pa18111Z1613E
+
+
+__cytop: 
+CDP-1-(3E-hexadecanoyl)-2-(11z-octadecenoyl)-sn-glycerol + sn-Glycerol 3-phosphate => CMP + 1-(11Z-octadecenoyl)-2-(3E-hexadecanoyl)-sn-glycero-3-phospho-(1'-sn-glycerol-3'-phosphate)
+CDP-pa18111Z1613E + C00093 --> C00055 + phglph18111z1613E
+
+
+__cytop: 
+H2O + 1-(11Z-octadecenoyl)-2-(3E-hexadecanoyl)-sn-glycero-3-phospho-(1'-sn-glycerol-3'-phosphate) => 1-(11Z-octadecenoyl)-2-(3E-hexadecanoyl)-sn-glycero-3-phospho-(1'-sn-glycerol) + Orthophosphate
+C00001 + phglph18111z1613E --> pg18111Z1613E + C00009

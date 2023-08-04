@@ -1,0 +1,128 @@
+Lipid: sqdg160 -> Sulfoquinovosyldiacylglycerol ()                             ?????????????????
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
+
+__cytop
+Hexadecanoyl-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate-sn-glycero-3-phosphate => 1,2-di-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00154 + BMGC136 --> BMGC + C00010
+
+__cytop
+1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC + C00001 --> BMGC + C00009
+
+__cytop
+1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + UDP-6-sulfoquinovose => 1-(11Z-octadecenoyl)-2-hexadecanoyl-3-(6&apos;-sulfo-?-D-quinovosyl)-sn-glycerol + UDP
+BMGC + C11521 --> SQDG160 + C00015
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: sqdg18111Z160 -> Sulfoquinovosyldiacylglycerol (18:1(11Z)/16:0)                            
+FattyAcids: 1-"11Z-octadecenoyl-CoA" aka: cis-Vaccenoyl-CoA; 2-"hexadecanoyl-CoA" aka: Palmitoyl-CoA
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecenoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
+
+__cytop
+Hexadecanoyl-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00154 + BMGC6809 --> BMGC15462 + C00010
+
+__cytop
+1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC15462 + C00001 --> BMGC65020 + C00009
+
+__cytop
+1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + UDP-6-sulfoquinovose => 1-(11Z-octadecenoyl)-2-hexadecanoyl-3-(6&apos;-sulfo-?-D-quinovosyl)-sn-glycerol + UDP
+BMGC65020 + C11521 --> SQDG18111Z160 + C00015
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: sqdg1819Z160 -> Sulfoquinovosyldiacylglycerol (18:1(9Z)/16:0)                            
+FattyAcids: 1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA; 2-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510	--> BMGC272 + C00010
+
+__cytop
+Hexadecanoyl-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00154 + BMGC272 --> BMGC273 + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC273 + C00001 --> BMGC65022 + C00009
+
+__cytop
+1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + UDP-6-sulfoquinovose => 1-(9Z-octadecenoyl)-2-hexadecanoyl-3-(6&apos;-sulfo-?-D-quinovosyl)-sn-glycerol + UDP
+BMGC65022 + C11521 --> SQDG1819Z160 + C00015
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: sqdg1829Z12Z160 -> Sulfoquinovosyldiacylglycerol (18:2(9Z,12Z)/16:0)                            
+FattyAcids: 1-"9Z,12Z-octadecadienoyl-CoA" aka: Linoleoyl-CoA ; 2-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z-octadecadienoyl)-CoA => 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C02050 --> BMGC401 + C00010
+
+__cytop
+Hexadecanoyl-CoA + 1-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00154 + BMGC401 --> BMGC34847 + C00010
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC34847 + C00001 --> BMGC63814 + C00009
+
+__cytop
+1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycerol + UDP-6-sulfoquinovose => 1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-3-(6&apos;-sulfo-?-D-quinovosyl)-sn-glycerol + UDP
+BMGC63814 + C11521 --> SQDG1829Z12Z160 + C00015
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: sqdg1839Z12Z15Z160 -> Sulfoquinovosyldiacylglycerol (18:3(9Z,12Z,15Z)/16:0)                            
+FattyAcids: 1-"9Z,12Z,15Z-octadecatrienoyl-CoA" aka: alpha-Linolenoyl-CoA; 2-"hexadecanoyl-CoA" aka: Palmitoyl-CoA
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z,12Z,15Z-octadecatrienoyl)-CoA => 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C16162 -->  BMGC403 + C00010
+
+__cytop
+Hexadecanoyl-CoA + 1-(9Z,12Z,15Z-octadecatrienoyl)-sn-glycero-3-phosphate => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00154 + BMGC403 --> BMGC34690 + C00010
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC34690 + C00001 --> BMGC63713 + C00009
+
+__cytop
+1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-sn-glycerol + UDP-6-sulfoquinovose => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-3-(6&apos;-sulfo-?-D-quinovosyl)-sn-glycerol + UDP
+BMGC63713 + C11521 --> SQDG1839Z12Z15Z160 + C00015
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,205 @@
+pe1801835Z9Z12Z	- Phosphatidylethanolamine (18:0/18:3(5Z,9Z,12Z))            
+Fatty Acids: 1-"octadecanoyl-CoA", 2-"5Z,9Z,12Z-octadecatrienoyl-CoA"
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+Octadecanoyl-CoA (Stearoyl-CoA) + sn-Glycerol 3-phosphate => CoA + 1-octadecanoyl-sn-glycero-3-phosphate
+C21945__cytop + C16162__cytop --> C00010__cytop + BMGC277
+
+__cytop: 
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycero-3-phosphate
+fa1835z9z12zCoA + BMGC277 --> C00010 + pa1801835z9z12z
+
+__cytop: 
+1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycero-3-phosphate + H2O => 1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycerol + Orthophosphate
+pa1801835z9z12z + C00063 --> dag1801835z9z12z + C00009
+
+__cytop: 
+1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP 
+dag1801835z9z12z + C00570 --> pe1801835Z9Z12Z + C00055
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pe1801845Z9Z12Z15Z - Phosphatidylethanolamine (18:0/18:4(5Z,9Z,12Z,15Z))
+Fatty Acids: 1-"octadecanoyl-CoA", 2-"5Z,9Z,12Z,15-octadecatetranoyl-CoA"
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+Octadecanoyl-CoA (Stearoyl-CoA) + sn-Glycerol 3-phosphate => CoA + 1-octadecanoyl-sn-glycero-3-phosphate
+C21945__cytop + C16162__cytop => C00010__cytop + BMGC277
+
+__cytop: 
+(5Z,9Z,12Z,15-octadecatetranoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadecanoyl-2-(5Z,9Z,12Z,15-octadecatetranoyl)sn-glycero-3-phosphate
+fa1845z9z12z15z + BMGC277 --> C00010 + pa1801845z9z12z15z
+
+__cytop: 
+1-octadecanoyl-2-(5Z,9Z,12Z,15-octadecatetranoyl)sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(5Z,9Z,12Z,15-octadecatetranoyl)sn-glycerol + Orthophosphate
+pa1801845z9z12z15z + C00001 --> dag1801845z9z12z15z + C00009
+
+__cytop: 
+1-octadecanoyl-2-(5Z,9Z,12Z,15-octadecatetranoyl)sn-glycerol + CDP-ethanolamine => 1-octadecanoyl-2-(5Z,9Z,12Z,15-octadecatetranoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+dag1801845z9z12z15z + C00570 --> pe1801845Z9Z12Z15Z + C00055
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pe18111Z1835Z9Z12Z - Phosphatidylethanolamine (18:1(11Z)/18:3(5Z,9Z,12Z))
+Fatty Acids: 1-"11Z-octadecenoyl-CoA", 2-"5Z,9Z,12Z-octadecatrienoyl-CoA"
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(11Z)-octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate
+C21945 + C00093 --> C00010 + BMGC6809
+
+__cytop: 
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphate
+fa1835z9z12zCoA + BMGC6809 --> C00010 + pa18111z1835z9z12z
+
+__cytop: 
+1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + Orthophosphate
+pa18111z1835z9z12z + C00001 --> dag18111z1835z9z12z + C00009
+
+__cytop: 
+1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+dag18111z1835z9z12z + C00570 --> pe18111Z1835Z9Z12Z + C00055
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pe18111Z1845Z9Z12Z15Z- Phosphatidylethanolamine (18:1(11Z)/18:4(5Z,9Z,12Z,15Z))
+Fatty Acids: 1-"11Z-octadecenoyl-CoA", 2-"5Z,9Z,12Z,15Z-octadecatetranoyl-CoA"                       
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(11Z)-octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate
+C21945 + C00093 --> C00010 + BMGC6809
+
+__cytop: 
+(5Z,9Z,12Z,15Z-octadecatetranoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)sn-glycero-3-phosphate
+fa1845z9z12z15zCoA + BMGC6809 --> C00010 + pa18111z1845z9z12z15z   
+
+__cytop: 
+1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)sn-glycerol + Orthophosphate
+pa18111z1845z9z12z15z + C00001 --> dag18111z1845z9z12z15z + C00009
+
+__cytop: 
+1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)sn-glycerol + CDP-ethanolamine => 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+dag18111z1845z9z12z15z + C00570 --> pe18111z1845z9z12z15z + C00055
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pe1819Z1835Z9Z12Z - Phosphatidylethanolamine (18:1(9Z)/18:3(5Z,9Z,12Z))
+Fatty Acids: 1-"9Z-octadecenoyl-CoA", 2-"5Z,9Z,12Z-octadecatrienoyl-CoA"
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(9Z)-octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + C00093 --> C00010 + BMGC272
+
+__cytop: 
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
+fa1835z9z12zCoA + BMGC272 --> C00010 + pa1819z1835z9z12z
+
+__cytop: 
+1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H20 => 1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Orthophosphate
+pa1819z1835z9z12z + C00001 --> dag1819z1835z9z12z + C00009
+
+__cytop: 
+1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+dag1819z1835z9z12z + C00570 --> pe1819z1835z9z12z + C00055
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pe1819Z1845Z9Z12Z15Z - Phosphatidylethanolamine (18:1(9Z)/18:4(5Z,9Z,12Z,15Z))
+Fatty Acids: 1-"9Z-octadecenoyl-CoA", 2-"5Z,9Z,12Z,15Z-octadecatetranoyl-CoA"
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(9Z)-octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + C00093 --> C00010 + BMGC272
+
+__cytop: 
+(5Z,9Z,12Z,15Z-octadecatetranoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)sn-glycero-3-phosphate
+fa1845z9z12z15zCoA + BMGC272 --> C00010 + pa1819z1845z9z12z15z
+
+__cytop: 
+1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)-sn-glycerol + Orthophosphate
+pa1819z1845z9z12z15z + C00001 --> dag1819z1845z9z12z15z + C00009
+
+__cytop: 
+1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)sn-glycerol + CDP-ethanolamine => 1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-octadecatetranoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+dag1819z1845z9z12z15z + C00570 --> pe1819z1845z9z12z15z + C00055
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pe1829Z12Z1835Z9Z12Z - Phosphatidylethanolamine (18:2(9Z,12Z)/18:3(5Z,9Z,12Z))
+Fatty Acids: 1-"9Z,12Z-Octadecadienoyl-CoA", 2-"5Z,9Z,12Z-octadecatrienoyl-CoA"
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(9Z,12Z-Octadecadienoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z,12Z-Octadecadienoyl)-sn-glycero-3-phosphate
+C02050 + C00093 --> C00010 + BMGC401
+
+__cytop: 
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-(9Z,12Z-Octadecadienoyl)-sn-glycero-3-phosphate => CoA + 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphate
+fa1835z9z12zCoA + BMGC401 --> C00010 + pa1829z12z1835z9z12z
+
+__cytop: 
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + Orthophosphate
+pa1829z12z1835z9z12z + C00001 --> dag1829z12z1835z9z12z + C00009
+
+__cytop: 
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+dag1829z12z1835z9z12z + C00570 --> pe1829z12z1835z9z12z + C00055
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

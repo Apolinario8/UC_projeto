@@ -1,0 +1,135 @@
+pc1829z12z1835z9z12z -> 1-(9Z,12Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine                        CONFIRMAR SE ESTAO CERTAS
+FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA" aka: Linoleoyl-CoA, 2-"5z,9Z,12Z-octadecatrienoyl-CoA"
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(9Z,12Z-Octadecadienoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z,12Z-Octadecadienoyl)-sn-glycero-3-phosphate
+ 
+
+__cytop: 
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-(9Z,12Z-Octadecadienoyl)-sn-glycero-3-phosphate => CoA + 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
+
+
+__cytop: 
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H+ + CTP => 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Diphosphate
+
+
+__cytop: 
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+
+
+__cytop:
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine + H+ 
+
+
+__cytop:
+CPD-405 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + CPD-160 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + H+
+
+
+__cytop:
+CPD-160 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1-(9Z,12Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pc1801835z9z12z -> 1-octadecanoyl-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine
+FattyAcids:  1-"octadecanoyl-CoA" aka: (Stearoyl-CoA), 2-"5z,9Z,12Z-octadecatrienoyl-CoA"
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+Octadecadienoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-octadecadienoyl-sn-glycero-3-phosphate
+ 
+
+__cytop: 
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-octadecadienoyl-sn-glycero-3-phosphate => CoA + 1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
+
+
+__cytop: 
+1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H+ + CTP => 1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Diphosphate
+
+
+__cytop: 
+1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+
+
+__cytop:
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine + H+ 
+
+
+__cytop:
+CPD-405 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + CPD-160 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + H+
+
+
+__cytop:
+CPD-160 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pc18111z1835z9z12z -> 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine
+FattyAcids:  1-"11z-octadecenoyl-CoA" aka: (Stearoyl-CoA), 2-"5z,9Z,12Z-octadecatrienoyl-CoA"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(11Z-Octadecadienoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecadienoyl)-sn-glycero-3-phosphate
+ 
+
+__cytop: 
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-(11Z-Octadecadienoyl)-sn-glycero-3-phosphate => CoA + 1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
+
+
+__cytop: 
+1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H+ + CTP => 1-(11Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Diphosphate
+
+
+__cytop: 
+1-(11Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(11Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+
+
+__cytop:
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((11Z)-octadecanoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine + H+ 
+
+
+__cytop:
+CPD-405 ((11Z)-octadecanoate)-(5Z,9Z,12Z)-octadecatrienoate) + CPD-160 ((11Z)-octadecanoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + H+
+
+
+__cytop:
+CPD-160 ((11Z)-octadecanoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
