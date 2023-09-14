@@ -1,0 +1,300 @@
+Lipid: pg18111Z1613E -> Phosphatidylglycerol (1-(11Z)-octadecenoyl,2-(3E)-hexadecenoyl)   
+Localização: chloroplast
+
+REACTION: R_pg18111Z1613E_V2
+1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + reduced ferredoxin + O2 => 1-(11Z-octadecenoyl)-2-(3E-hexadecenoyl)-sn-glycero-3-phospho-(1'-sn-glycerol) + oxidized ferredoxin + H2O
+pg18111Z160 + C00138 + C00007 => pg18111Z1613E + C00139 + C00001
+_____________________________________________________________________________________________________________________________________
+
+Lipid: pg1891Z1613E -> Phosphatidylglycerol (1-(9Z)-octadecenoyl,2-(3E)-hexadecenoyl)   
+Localização: chloroplast
+
+REACTION: R_BMGR765976_V2
+1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + reduced ferredoxin + O2 => 1-(9Z-octadecenoyl)-2-(3E-hexadecenoyl)-sn-glycero-3-phospho-(1'-sn-glycerol) + oxidized ferredoxin + H2O
+BMGC456 + C00138 + C00007 => BMGC765976 + C00139 + C00001
+_____________________________________________________________________________________________________________________________________
+
+Lipid: pg1829Z12Z160 -> Phosphatidylglycerol (1-(9Z,12Z)-octadecadienoyl,2-hexadecanoyl)   
+Localização: chloroplast
+
+REACTION: R_BMGR7150_V2
+1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + reduced ferredoxin + O2 => 1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + oxidized ferredoxin + H2O
+BMGC456 + C00138 + C00007 => BMGC7150  + C00139 + C00001
+_____________________________________________________________________________________________________________________________________
+
+Lipid: pg1829Z12Z1613E -> Phosphatidylglycerol (1-(9Z,12Z)-octadecadienoyl,2-(3E)-hexadecenoyl)   
+Localização: chloroplast
+
+REACTION: R_BMGR765977_V2
+1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + reduced ferredoxin + O2 => 1-(9Z,12Z-octadecadienoyl)-2-(3E-hexadecenoyl)-sn-glycero-3-phospho-(1'-sn-glycerol) + oxidized ferredoxin + H2O
+BMGC7150 + C00138 + C00007 => BMGC765977  + C00139 + C00001
+_____________________________________________________________________________________________________________________________________
+
+Lipid: pg1839Z12Z15Z160 -> Phosphatidylglycerol (1-(9Z,12Z,15Z)-octadecatrienoyl,2-hexadecanoyl)   
+Localização: chloroplast
+
+REACTION: R_BMGR3716_V2
+1-(9Z,12Z-octadecadienoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + reduced ferredoxin + O2 => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + oxidized ferredoxin + H2O
+BMGC7150 + C00138 + C00007 => BMGC3716  + C00139 + C00001
+_____________________________________________________________________________________________________________________________________
+
+Lipid: pg1839Z12Z15Z1613E -> Phosphatidylglycerol (1-(9Z,12Z,15Z)-octadecatrienoyl,2-(3E)-hexadecenoyl)   
+Localização: chloroplast
+
+REACTION: R_BMGR765978_V2
+1-(9Z,12Z,15Z-octadecadienoyl)-2-hexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol) + reduced ferredoxin + O2 => 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(3E-hexadecenoyl)-sn-glycero-3-phospho-(1'-sn-glycerol) + oxidized ferredoxin + H2O
+BMGC3716 + C00138 + C00007 => BMGC765978 + C00139 + C00001
+_____________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________
+
+Lipid: pe1801819Z -> Phosphatidylethanolamine (18:0/18:1(9Z))
+
+__cytop: 
+Octadecanoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-octadecanoyl-sn-glycero-3-phosphate
+C00412__cytop + C00093__cytop --> C00010__cytop + BMGC277
+
+__cytop: 
+(9Z-octadecenoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + BMGC277 --> C00010 + BMGC278
+
+__cytop: 
+1-octadecanoyl-2-(9Z-octadecenoyl)sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC278 + C00001 -->  BMGC70207 + C00009
+
+__cytop: 
+1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + CDP-ethanolamine => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + CMP 
+BMGC70207 + C00570 --> BMGC22969 + C00055
+_______________________________________________________________________________________________________________________________
+Lipid: pe18111Z1819Z -> Phosphatidylethanolamine (18:1(11Z)/18:1(9Z))
+
+__cytop: 
+11z-Octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11z-octadecenoyl)-sn-glycero-3-phosphate
+C21945 + C00093__cytop --> C00010__cytop + BMGC6809
+
+__cytop: 
+(9Z-octadecenoyl)-CoA + 1-(11z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(11z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + BMGC6809 --> C00010 + BMGC15451
+__cytop: 
+1-(11z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC15451 + C00001 -->  BMGC70102 + C00009
+
+__cytop: 
+1-(11z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + CDP-ethanolamine => 1-(11z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + CMP 
+BMGC70102 + C00570 --> BMGC30430 + C00055
+______________________________________________________________________________________________________________________________________
+
+Lipid: pe1819Z1819Z -> Phosphatidylethanolamine (18:1(9Z)/18:1(9Z))
+
+__cytop: 
+9z-Octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + C00093__cytop --> C00010__cytop + BMGC272
+
+__cytop: 
+(9Z-octadecenoyl)-CoA + 1-(11z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + BMGC272 --> C00010 + BMGC400
+__cytop: 
+1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC400 + C00001 -->  BMGC70110 + C00009
+
+__cytop: 
+1,2-di-(9Z-octadecenoyl)-sn-glycerol + CDP-ethanolamine => 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + CMP 
+BMGC70110 + C00570 --> BMGC12584 + C00055
+________________________________________________________________________________________________________________________________
+
+REACTION: R_BMGR22967_V2 
+NADH + O2 + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-octadecanoyl-2-(9Z,12Z-Octadecadienoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + BMGC22969 --> C00001 + C00003 + BMGC22967 
+
+REACTION: R_pe1801835z9z12z_V2
+NADH + O2 + 1-octadecanoyl-2-(9Z,12Z-Octadecadienoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-octadecanoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + BMGC22967 --> C00001 + C00003 + pe1801835Z9Z12Z 
+
+REACTION: R_pe1801845Z9Z12Z15Z_V2
+NADH + O2 + 1-octadecanoyl-2-(9Z,12Z,15Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-octadecanoyl-2-(5Z,9Z,12Z,15Z-Octadecatetraenoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + pe1801835z9z12z --> C00001 + C00003 + pe1801845Z9Z12Z15Z
+______________________________________________________________________________________________________________________
+
+REACTION: R_BMGR30428_V2
+NADH + O2 + 1-(11z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-(11z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + BMGC30430 --> C00001 + C00003 + BMGC30428
+
+REACTION: R_pe18111Z1835Z9Z12Z_V2
+NADH + O2 + 1-(11z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + BMGC30428 --> C00001 + C00003 + pe18111Z1835Z9Z12Z 
+
+REACTION: R_pe18111Z1845Z9Z12Z15Z_V2
+NADH + O2 + 1-(11Z-octadecenoyl)-2-(9Z,12Z,15Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-Octadecatetraenoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + pe18111Z1835Z9Z12Z --> C00001 + C00003 + pe18111z1845Z9Z12Z15Z
+__________________________________________________________________________________________________________________________________
+
+REACTION: R_BMGR8602_V2
+NADH + O2 + 1,2-di-(9z-octadecenoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-(9z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + BMGC12584 --> C00001 + C00003 + BMGC8602
+
+REACTION: R_pe1819Z1835Z9Z12Z_V2
+NADH + O2 + 1-(9z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + BMGC8602 --> C00001 + C00003 + pe1819Z1835Z9Z12Z
+
+REACTION: R_pe1819Z1845Z9Z12Z15Z_V2
+NADH + O2 + 1-(9Z-octadecenoyl)-2-(9Z,12Z,15Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-(9Z-octadecenoyl)-2-(5Z,9Z,12Z,15Z-Octadecatetraenoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + pe1819Z1835Z9Z12Z --> C00001 + C00003 + pe1819Z1845Z9Z12Z15Z
+
+REACTION: R_pe1829Z12Z1835Z9Z12Z_V2
+NADH + O2 + 1-(9Z-octadecenoyl)-2-(9Z,12Z,15Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine => H2O + NAD+ + 1-(9Z,12Z-octadecadienoyl)-2-(5Z,9Z,12Z,15Z-Octadecatetraenoyl)-sn-glycero-3-phosphoethanolamine
+C00004 + C00007 + pe1819Z1835Z9Z12Z --> C00001 + C00003 + pe1829Z12Z1835Z9Z12Z
+______________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________
+
+REACTION: R_sqdg1829Z12Z160_V2                               LOCALIZAÇÃO: Chloroplast
+Reduced Ferredoxin + O2 + Sulfoquinovosyldiacylglycerol (1-(9Z)-octadecenoyl,2-hexadecanoyl => H2O + Oxidized Ferredoxin + Sulfoquinovosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-hexadecanoyL)
+C00138 + C00007 + sqdg1819Z160 --> C00001 + C00139 + sqdg1829Z12Z160
+
+REACTION: R_sqdg1839Z12Z15Z160_V2
+Reduced Ferredoxin + O2 + Sulfoquinovosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-hexadecanoyL) => H2O + Oxidized Ferredoxin + Sulfoquinovosyldiacylglycerol (1-(9Z,12Z,15Z)-octadecatrienoyl,2-hexadecanoyl)
+C00138 + C00007 + sqdg1829Z12Z160 --> C00001 + C00139 + sqdg1839Z12Z15Z160
+________________________________________________________________________________________________
+__________________________________________________________________________________________________
+____________________________________________________________________________________________________
+
+REACTION: R_mgdg1819Z1617Z_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z)-octadecenoyl,2-hexadecanoyl) => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z)-octadecenoyl,2-(7Z)-hexadecenoyl)
+C00138 + C00007 + mgdg1819Z160 --> C00001 + C00139 + mgdg1819Z1617Z
+
+REACTION: R_mgdg1819Z1627Z10Z_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z)-octadecenoyl,2-(7Z)-hexadecenoyl) => H2O + Oxidized Ferredoxin + 1-(9Z-octadecenoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol
+C00138 + C00007 + mgdg1819Z1617Z --> C00001 + C00139 + mgdg1819Z1627Z10Z
+
+REACTION: R_mgdg1819Z1637Z10Z13Z_V2
+Reduced Ferredoxin + O2 + 1-(9Z-octadecenoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z)-octadecenoyl,2-(7Z,10Z,13Z)-hexadecatrienoyl)
+C00138 + C00007 + mgdg1819Z1627Z10Z --> C00001 + C00139 + mgdg1819Z1637Z10Z13Z
+
+REACTION: R_mgdg1829Z12Z160_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z)-octadecenoyl,2-hexadecanoyl) => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-hexadecanoyl)
+C00138 + C00007 + mgdg1819Z160 --> C00001 + C00139 + mgdg1829Z12Z160
+
+REACTION: R_mgdg1829Z12Z1617Z_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-hexadecanoyl) => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-(7Z)-hexadecenoyl)
+C00138 + C00007 + mgdg1829Z12Z160 --> C00001 + C00139 + mgdg1829Z12Z1617Z
+
+REACTION: R_mgdg1829Z12Z1619Z_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z)-octadecenoyl,2-(9Z)-hexadecenoyl) => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-(9Z)-hexadecenoyl)
+C00138 + C00007 + mgdg1819Z1619Z --> C00001 + C00139 + mgdg1829Z12Z1619Z
+
+REACTION: R_mgdg1829Z12Z1627Z10Z_V2
+Reduced Ferredoxin + O2 + 1-(9Z-octadecenoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol => H2O + Oxidized Ferredoxin + 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol
+C00138 + C00007 + mgdg1819Z1627Z10Z --> C00001 + C00139 + mgdg1829Z12Z1627Z10Z
+
+REACTION: R_mgdg1829Z12Z1634Z7Z10Z_V2
+Reduced Ferredoxin + O2 + 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-(4Z,7Z,10Z)-hexadecatrienoyl)
+C00138 + C00007 + mgdg1829Z12Z1627Z10Z --> C00001 + C00139 + mgdg1829Z12Z1634Z7Z10Z
+
+REACTION: R_mgdg1829Z12Z1637Z10Z13Z_V2
+Reduced Ferredoxin + O2 + 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-(7Z,10Z,13Z)-hexadecatrienoyl)
+C00138 + C00007 + mgdg1829Z12Z1627Z10Z --> C00001 + C00139 + mgdg1829Z12Z1637Z10Z13Z
+
+REACTION: R_mgdg1829Z12Z1644Z7Z10Z13Z_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-(7Z,10Z,13Z)-hexadecatrienoyl) => H2O + Oxidized Ferredoxin + 1-(9Z,12Z-octadecadienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-3-beta-D-galactosyl-sn-glycerol
+C00138 + C00007 + mgdg1829Z12Z1637Z10Z13Z --> C00001 + C00139 + mgdg1829Z12Z1644Z7Z10Z13Z
+
+REACTION: R_mgdg1839Z12Z15Z160_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-hexadecanoyl) => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z,12Z,15Z)-octadecatrienoyl,2-hexadecanoyl)
+C00138 + C00007 + mgdg1829Z12Z160 --> C00001 + C00139 + mgdg1839Z12Z15Z160
+
+REACTION: R_mgdg1839Z12Z15Z1627Z10Z_V2
+Reduced Ferredoxin + O2 + 1-(9Z,12Z-octadecadienoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol => H2O + Oxidized Ferredoxin + 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol
+C00138 + C00007 + mgdg1829Z12Z1627Z10Z --> C00001 + C00139 + mgdg1839Z12Z15Z1627Z10Z
+
+REACTION: R_mgdg1839Z12Z15Z1634Z7Z10Z_V2
+Reduced Ferredoxin + O2 + 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(7Z,10Z-hexadecadienoyl)-3-beta-D-galactosyl-sn-glycerol => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z,12Z,15Z)-octadecatrienoyl,2-(4Z,7Z,10Z)-hexadecatrienoyl)
+C00138 + C00007 + mgdg1839Z12Z15Z1627Z10Z --> C00001 + C00139 + mgdg1839Z12Z15Z1634Z7Z10Z
+
+REACTION: R_mgdg1839Z12Z15Z1637Z10Z13Z_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z,12Z)-octadecadienoyl,2-(7Z,10Z,13Z)-hexadecatrienoyl) => H2O + Oxidized Ferredoxin + Monogalactosyldiacylglycerol (1-(9Z,12Z,15Z)-octadecatrienoyl,2-(7Z,10Z,13Z)-hexadecatrienoyl)
+C00138 + C00007 + mgdg1829Z12Z1637Z10Z13Z --> C00001 + C00139 + mgdg1839Z12Z15Z1637Z10Z13Z
+
+REACTION: R_mgdg1839Z12Z15Z1644Z7Z10Z13Z_V2
+Reduced Ferredoxin + O2 + Monogalactosyldiacylglycerol (1-(9Z,12Z,15Z)-octadecatrienoyl,2-(4Z,7Z,10Z)-hexadecatrienoyl) => H2O + Oxidized Ferredoxin + 1-(9Z,12Z,15Z-octadecatrienoyl)-2-(4Z,7Z,10Z,13Z-hexadecatetraenoyl)-3-beta-D-galactosyl-sn-glycerol
+C00138 + C00007 + mgdg1839Z12Z15Z1634Z7Z10Z --> C00001 + C00139 + mgdg1839Z12Z15Z1644Z7Z10Z13Z
+_____________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

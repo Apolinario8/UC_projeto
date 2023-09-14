@@ -1,0 +1,5 @@
+R_1agpe180:
+H2O + pe1801835Z9Z12Z --> 1-Acyl-sn-glycero-3-phosphoethanolamine (18:0) (1agpe180, ver se este metabolito existe no kegg) + fa1835z9z12z
+
+R_1agpe180V:
+H2O + pe1801845Z9Z12Z15Z --> 1-Acyl-sn-glycero-3-phosphoethanolamine (18:0) + fa1435z9z12z15z

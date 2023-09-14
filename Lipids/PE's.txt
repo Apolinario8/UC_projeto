@@ -3,19 +3,19 @@ Fatty Acids: 1-"octadecanoyl-CoA", 2-"5Z,9Z,12Z-octadecatrienoyl-CoA"
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 __cytop: 
-Octadecanoyl-CoA (Stearoyl-CoA) + sn-Glycerol 3-phosphate => CoA + 1-octadecanoyl-sn-glycero-3-phosphate
-C21945__cytop + C16162__cytop --> C00010__cytop + BMGC277
+Octadecanoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-octadecanoyl-sn-glycero-3-phosphate
+C00412__cytop + C00093__cytop --> C00010__cytop + BMGC277
 
 __cytop: 
-(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycero-3-phosphate
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadacenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycero-3-phosphate
 fa1835z9z12zCoA + BMGC277 --> C00010 + pa1801835z9z12z
 
 __cytop: 
-1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycero-3-phosphate + H2O => 1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycerol + Orthophosphate
-pa1801835z9z12z + C00063 --> dag1801835z9z12z + C00009
+1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycero-3-phosphate + H2O => 1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycerol + Orthophosphate
+pa1801835z9z12z + C00001 --> dag1801835z9z12z + C00009
 
 __cytop: 
-1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP 
+1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycerol + CDP-ethanolamine => 1-octadecenoyl-2-(5Z,9Z,12Z-Octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP 
 dag1801835z9z12z + C00570 --> pe1801835Z9Z12Z + C00055
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ Octadecanoyl-CoA (Stearoyl-CoA) + sn-Glycerol 3-phosphate => CoA + 1-octadecanoy
 C21945__cytop + C16162__cytop => C00010__cytop + BMGC277
 
 __cytop: 
-(5Z,9Z,12Z,15-octadecatetranoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadecanoyl-2-(5Z,9Z,12Z,15-octadecatetranoyl)sn-glycero-3-phosphate
+(5Z,9Z,12Z,15-octadecatetranoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadecanoyl-2-(5Z,9Z,12Z,15-octadecatetranoyl)-sn-glycero-3-phosphate
 fa1845z9z12z15z + BMGC277 --> C00010 + pa1801845z9z12z15z
 
 __cytop: 

@@ -8,15 +8,15 @@ C00093 + C00154 --> BMGC136 + C00010
 
 __cytop
 Hexadecanoyl-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate-sn-glycero-3-phosphate => 1,2-di-hexadecanoyl-sn-glycero-3-phosphate + CoA
-C00154 + BMGC136 --> BMGC + C00010
+C00154 + BMGC136 --> BMGC423 + C00010
 
 __cytop
-1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + Orthophosphate
-BMGC + C00001 --> BMGC + C00009
+1,2-di-hexadecanoyl-sn-glycero-3-phosphate + H2O => 1,2-di-hexadecanoyl-sn-glycerol + Orthophosphate
+BMGC423 + C00001 --> BMGC61409 + C00009
 
 __cytop
-1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + UDP-6-sulfoquinovose => 1-(11Z-octadecenoyl)-2-hexadecanoyl-3-(6&apos;-sulfo-?-D-quinovosyl)-sn-glycerol + UDP
-BMGC + C11521 --> SQDG160 + C00015
+1,2-di-hexadecanoyl-sn-glycerol + UDP-6-sulfoquinovose => 1,2-di-hexadecanoyl-3-(6&apos;-sulfo-?-D-quinovosyl)-sn-glycerol + UDP
+BMGC61409 + C11521 --> SQDG160 + C00015
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

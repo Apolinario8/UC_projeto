@@ -1,33 +1,34 @@
-pc1829z12z1835z9z12z -> 1-(9Z,12Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine                        CONFIRMAR SE ESTAO CERTAS
+pc1829z12z1835z9z12z -> 1-(9Z,12Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine                   
 FattyAcids:  1-"9Z,12Z-octadecadienoyl-CoA" aka: Linoleoyl-CoA, 2-"5z,9Z,12Z-octadecatrienoyl-CoA"
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 __cytop: 
 (9Z,12Z-Octadecadienoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z,12Z-Octadecadienoyl)-sn-glycero-3-phosphate
- 
+C02050 + C00093 --> C00010 + BMGC401
 
 __cytop: 
 (5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-(9Z,12Z-Octadecadienoyl)-sn-glycero-3-phosphate => CoA + 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
-
-
-__cytop: 
-1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H+ + CTP => 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Diphosphate
-
+fa1835z9z12zCoA + BMGC401 --> C00010 + pa1829z12z1835z9z12z
 
 __cytop: 
-1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H2O => 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Orthophosphate
+pa1829z12z1835z9z12z + C00001 --> dag1829z12z1835z9z12z + C00009
 
-
-__cytop:
-1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine + H+ 
-
-
-__cytop:
-CPD-405 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + CPD-160 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + H+
-
+__cytop: 
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP
+pa1829z12z1835z9z12z + C00570 --> pe1829z12z1835z9z12z + C00055
 
 __cytop:
-CPD-160 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1-(9Z,12Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine  
+pe1829z12z1835z9z12z + C00019 --> CPD4051829z12z1835z9z12z + C00021
+
+__cytop:
+CPD-405 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + CPD-160 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate)
+CPD4051829z12z1835z9z12z + C00019 --> C00021 + CPD1601829z12z1835z9z12z
+
+__cytop:
+CPD-160 ((9Z,12Z)-octadecadienoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1-(9Z,12Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine
+CPD1601829z12z1835z9z12z + C00019 --> pc1829z12z1835z9z12z + C00021
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -36,31 +37,33 @@ FattyAcids:  1-"octadecanoyl-CoA" aka: (Stearoyl-CoA), 2-"5z,9Z,12Z-octadecatrie
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 __cytop: 
-Octadecadienoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-octadecadienoyl-sn-glycero-3-phosphate
- 
+Octadecanoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-octadecanoyl-sn-glycero-3-phosphate
+C00412 + C00093 --> C00010 + BMGC277
 
 __cytop: 
-(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-octadecadienoyl-sn-glycero-3-phosphate => CoA + 1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
-
-
-__cytop: 
-1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H+ + CTP => 1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Diphosphate
-
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-Octadecanoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
+fa1835z9z12zCoA + BMGC277 --> C00010 + pa1801835z9z12z
 
 __cytop: 
-1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+1-Octadecanoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H2O => 1-Octadecanoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Orthophosphate
+pa1801835z9z12z + C00001 --> dag1801835z9z12z + C00009
 
-
-__cytop:
-1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine + H+ 
-
-
-__cytop:
-CPD-405 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + CPD-160 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + H+
-
+__cytop: 
+1-Octadecanoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-Octadecanoyl-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+dag1801835z9z12z + C00570 --> pe1801835z9z12z + C00055
 
 __cytop:
-CPD-160 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+1-Octadecanoyl-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine + H+ 
+pe1801835z9z12z + C00019 --> CPD4051801835z9z12z + C00021
+
+__cytop:
+CPD-405 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + CPD-160 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate)
+CPD4051801835Z9Z12Z + C00019 --> CPD1601801835z9z12z + C00021
+
+__cytop:
+CPD-160 (octadecanoate)((5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1-octadecanoyl-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+CPD1601801835z9z12z + C00019 --> pc1801835z9z12z + C00021
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 pc18111z1835z9z12z -> 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine
@@ -68,32 +71,263 @@ FattyAcids:  1-"11z-octadecenoyl-CoA" aka: (Stearoyl-CoA), 2-"5z,9Z,12Z-octadeca
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 __cytop: 
-(11Z-Octadecadienoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecadienoyl)-sn-glycero-3-phosphate
- 
+(11Z-Octadecenoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate
+C21945 + C00093 --> C00010 + BMGC6809
 
 __cytop: 
-(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-(11Z-Octadecadienoyl)-sn-glycero-3-phosphate => CoA + 1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
-
-
-__cytop: 
-1-Octadecadienoyl-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H+ + CTP => 1-(11Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Diphosphate
-
+(5Z,9Z,12Z-octadecatrienoyl)-CoA + 1-(11Z-Octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(11Z-Octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate
+fa1835z9z12zCoA + BMGC6809 --> C00010 + pa18111z1835z9z12z
 
 __cytop: 
-1-(11Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(11Z-octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+1-(11Z-Octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + Orthophosphate
+pa18111z1835z9z12z + C00001 --> dag18111z1835z9z12z + C00009
 
-
-__cytop:
-1-(9Z,12Z-Octadecadienoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((11Z)-octadecanoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine + H+ 
-
-
-__cytop:
-CPD-405 ((11Z)-octadecanoate)-(5Z,9Z,12Z)-octadecatrienoate) + CPD-160 ((11Z)-octadecanoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + H+
-
+__cytop: 
+1-(11Z-Octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)sn-glycerol + CDP-ethanolamine => 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+dag18111z1835z9z12z + C00570 --> pe18111z1835z9z12z + C00055
 
 __cytop:
-CPD-160 ((11Z)-octadecanoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((11Z)-octadecenoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-homocysteine + H+ 
+pe18111z1835z9z12z + C00019 --> CPD40518111z1835z9z12z + C00021
+
+__cytop:
+CPD-405 ((11Z)-octadecenoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + CPD-160 ((11Z)-octadecenoate)-(5Z,9Z,12Z)-octadecatrienoate)
+CPD40518111z1835z9z12z + C00019 --> CPD16018111z1835z9z12z + C00021
+
+__cytop:
+CPD-160 ((11Z)-octadecenoate)-(5Z,9Z,12Z)-octadecatrienoate) + S-Adenosyl-L-methionine => 1-(11Z-octadecenoyl)-2-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+CPD16018111z1835z9z12z + C00019 --> pc18111z1835z9z12z + C00021
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pc18111z1819z-> 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+FattyAcids:  1-"11z-octadecenoyl-CoA" aka: (Stearoyl-CoA), 2-"9Z-octadecenoyl-CoA"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(11Z-Octadecenoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate
+C21945 + C00093 --> C00010 + BMGC6809
+
+__cytop: 
+(9Z-octadecenoyl)-CoA + 1-(11Z-Octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(11Z-Octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + BMGC6809 --> C00010 + BMGC15451
+
+__cytop: 
+1-(11Z-Octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC15451 + C00001 --> BMGC70102 + C00009
+
+__cytop: 
+1-(11Z-Octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + CDP-ethanolamine => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+BMGC70102 + C00570 --> BMGC30430 + C00055
+
+__cytop:
+1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((11Z)-octadecenoate)-(9Z)-octadecenoate) + S-Adenosyl-L-homocysteine + H+ 
+BMGC30430 + C00019 --> BMGC727180 + C00021
+
+__cytop:
+CPD-405 ((11Z)-octadecenoate)-(9Z)-octadecenoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + CPD-160 ((11Z)-octadecenoate)-(9Z)-octadecenoate)
+BMGC727179 + C00019 --> BMGC713108 + C00021
+
+__cytop:
+CPD-160 ((11Z)-octadecenoate)-(9Z)-octadecenoate) + S-Adenosyl-L-methionine => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+BMGC713108 + C00019 --> BMGC10694 + C00021
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pc18111z1829Z12z -> 1-(11Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+FattyAcids:  1-"11z-octadecenoyl-CoA" aka: (Stearoyl-CoA), 2-"9Z,12Z-octadecadienoyl-CoA"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(11Z-Octadecenoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate
+C21945 + C00093 --> C00010 + BMGC6809
+
+__cytop: 
+(9Z,12Z-octadecadienoyl)-CoA + 1-(11Z-Octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(11Z-Octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate
+C02050 + BMGC6809 --> C00010 + BMGC15449
+
+__cytop: 
+1-(11Z-Octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycerol + Orthophosphate
+BMGC15449 + C00001 --> BMGC70000 + C00009
+
+__cytop: 
+1-(11Z-Octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycerol + CDP-ethanolamine => 1-(11Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+BMGC70000 + C00570 --> BMGC30428 + C00055
+
+__cytop:
+1-(11Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((11Z)-octadecenoate)-(9Z,12z)-octadecadienoate) + S-Adenosyl-L-homocysteine + H+ 
+BMGC30428 + C00019 --> BMGC727182 + C00021
+
+__cytop:
+CPD-405 ((11Z)-octadecenoate)-(9Z,12Z)-octadecadienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + CPD-160 ((11Z)-octadecenoate)-(9Z,12Z)-octadecadienoate)
+BMGC727182 + C00019 --> BMGC713337 + C00021
+
+__cytop:
+CPD-160 ((11Z)-octadecenoate)-(9Z,12Z)-octadecadienoate) + S-Adenosyl-L-methionine => 1-(11Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+BMGC713337 + C00019 --> BMGC10692 + C00021
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pc1819z1829z12z -> 1-(9Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+FattyAcids:  1-"9z-octadecenoyl-CoA" aka: (Stearoyl-CoA), 2-"9Z,12Z-octadecadienoyl-CoA"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(9Z-Octadecenoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + C00093 --> C00010 + BMGC272
+
+__cytop: 
+(9Z,12Z-octadecadienoyl)-CoA + 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(9Z-Octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate
+C02050 + BMGC272 --> C00010 + BMGC405
+
+__cytop: 
+1-(9Z-Octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycerol + Orthophosphate
+BMGC405 + C00001 --> BMGC70004 + C00009
+
+__cytop: 
+1-(9Z-Octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycerol + CDP-ethanolamine => 1-(9Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+BMGC70004 + C00570 --> BMGC8602 + C00055
+
+__cytop:
+1-(9Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 ((9Z)-octadecenoate)-(9Z,12z)-octadecadienoate) + S-Adenosyl-L-homocysteine + H+ 
+BMGC8602 + C00019 --> BMGC729319 + C00021
+
+__cytop:
+CPD-405 ((9Z)-octadecenoate)-(9Z,12Z)-octadecadienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + CPD-160 ((9Z)-octadecenoate)-(9Z,12Z)-octadecadienoate)
+BMGC729319 + C00019 --> BMGC713272 + C00021
+
+__cytop:
+CPD-160 ((9Z)-octadecenoate)-(9Z,12Z)-octadecadienoate) + S-Adenosyl-L-methionine => 1-(9Z-octadecenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+BMGC713272 + C00019 --> BMGC415 + C00021
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pc1819z1819z -> 1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+FattyAcids:  1-"9z-octadecenoyl-CoA" aka: (Stearoyl-CoA), 2-"9Z-octadecenoyl-CoA"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+(9Z-Octadecenoyl)-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + C00093 --> C00010 + BMGC272
+
+__cytop: 
+(9Z-octadecenoyl)-CoA + 1-(9Z-Octadecenoyl)-sn-glycero-3-phosphate => CoA + 1,2-di-(9Z-Octadecenoyl)-sn-glycero-3-phosphate
+C00510 + BMGC272 --> C00010 + BMGC400
+
+__cytop: 
+1,2-di-(9Z-Octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(9Z-Octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC400 + C00001 --> BMGC70110 + C00009
+
+__cytop: 
+1,2-di-(9Z-Octadecenoyl)-sn-glycerol + CDP-ethanolamine => 1,2-di-(9Z-Octadecenoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+BMGC70110 + C00570 --> BMGC12584 + C00055
+
+__cytop:
+1,2-di-(9Z-Octadecenoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  + S-Adenosyl-L-homocysteine + H+ 
+BMGC12584 + C00019 --> BMGC318383 + C00021
+
+__cytop:
+ + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + 
+BMGC318383 + C00019 --> BMGC318384 + C00021
+
+__cytop:
+  + S-Adenosyl-L-methionine => 1-)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+BMGC318384 + C00019 --> BMGC414 + C00021
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pc1801819z -> 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+FattyAcids:  1-"octadecanoyl-CoA" , 2-"9Z-octadecenoyl-CoA"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+octadecanoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-octadecanoyl-sn-glycero-3-phosphate
+C00510 + C00093 --> C00010 + BMGC272
+
+__cytop: 
+(9Z-octadecenoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadecanoyl-2-(9Z-Octadecenoyl)-sn-glycero-3-phosphate
+C00510 + BMGC272 --> C00010 + BMGC400
+
+__cytop: 
+1-octadecanoyl-2-(9Z-Octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-Octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC400 + C00001 --> BMGC70110 + C00009
+
+__cytop: 
+1-octadecanoyl-2-(9Z-Octadecenoyl)-sn-glycerol + CDP-ethanolamine => 1-octadecanoyl-2-(9Z-Octadecenoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+BMGC70110 + C00570 --> BMGC22969 + C00055
+
+__cytop:
+1-octadecanoyl-2-(9Z-Octadecenoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine => CPD-405 (octadecanoate) ((9Z)-octadecenoate) + S-Adenosyl-L-homocysteine + H+  
+BMGC22969 + C00019 --> BMGC729351 + C00021
+
+__cytop:
+CPD-405 (octadecanoate) ((9Z)-octadecenoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + CPD-160 (octadecanoate) ((9Z)-octadecenoate)
+BMGC729351 + C00019 --> BMGC712976 + C00021
+
+__cytop:
+CPD-160 (octadecanoate) ((9Z)-octadecenoate) + S-Adenosyl-L-methionine => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+BMGC712976 + C00019 --> BMGC302 + C00021
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pc1801829z12z -> 1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine
+FattyAcids:  1-"octadecanoyl-CoA", 2-"9Z,12Z-octadecadienoyl-CoA"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop: 
+octadecanoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-octadecanoyl-sn-glycero-3-phosphate
+C00412 + C00093 --> C00010 + BMGC277
+
+__cytop: 
+(9Z,12Z-octadecadienoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => CoA + 1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate
+C02050 + BMGC277 --> C00010 + BMGC43877
+
+__cytop: 
+1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycerol + Orthophosphate
+BMGC43877 + C00001 --> BMGC70092 + C00009
+
+__cytop: 
+1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycerol + CDP-ethanolamine => 1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine + CMP + H+
+BMGC70092 + C00570 --> BMGC22967 + C00055
+
+__cytop:
+1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine + S-Adenosyl-L-methionine =>  CPD-405 (octadecanoate)-(9Z,12z)-octadecadienoate) + S-Adenosyl-L-homocysteine + H+ 
+BMGC22967 + C00019 --> BMGC721697 + C00021
+
+__cytop:
+CPD-405 (octadecanoate)-(9Z,12Z)-octadecadienoate) + S-Adenosyl-L-methionine => S-Adenosyl-L-homocysteine + CPD-160 (octadecanoate)-(9Z,12Z)-octadecadienoate)
+BMGC721697 + C00019 --> BMGC713237 + C00021
+
+__cytop:
+CPD-160 (octadecanoate)-(9Z,12Z)-octadecadienoate) + S-Adenosyl-L-methionine => 1-(octadecanoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphocholine + S-Adenosyl-L-homocysteine + H+
+BMGC713237 + C00019 --> BMGC45682 + C00021
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

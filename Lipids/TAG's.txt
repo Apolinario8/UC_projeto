@@ -1,4 +1,4 @@
-Lipid: tag1819Z1819Z1835Z9Z12Z-> Triacylglycerol (18:1(9Z)/18:1(9Z)/18:3(5Z,9Z,12Z))                      VER A TERCEIRA REAÇÃO;
+Lipid: tag1819Z1819Z1835Z9Z12Z-> Triacylglycerol (18:1(9Z)/18:1(9Z)/18:3(5Z,9Z,12Z))                      
 FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"9Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z-octadecatrienoyl-CoA"
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -7,8 +7,8 @@ sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycer
 C00093 + C00510 --> BMGC272 + C00010
 
 __cytop
-(9Z-octadecenoyl)-CoA+ 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-C00093 + BMGC272 --> BMGC400 + C00010
+(9Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC272 --> BMGC400 + C00010
 
 __cytop
 1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
@@ -16,7 +16,7 @@ BMGC400 + C00001 --> BMGC70110 + C00009
 
 __cytop
 (5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1,2-di-(9Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
-- + BMGC70110 --> TAG1819Z1819Z1835Z9Z12Z + C00010
+fa1835z9z12zCoA + BMGC70110 --> tag1819z1819z1835z9z12z + C00010
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -26,18 +26,20 @@ FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"9Z-octadecenoyl-CoA", 3
 
 __cytop
 sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-(9Z-octadecenoyl)-CoA+ 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C00093 + C00510 --> BMGC272 + C00010
 
 __cytop
-1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
+(9Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC272 --> BMGC400 + C00010
 
+__cytop
+1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC400 + C00001 --> BMGC70110 + C00009
 
 __cytop
 (5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-(9Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1,2-di-(9Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+fa1845z9z12z15z + BMGC70110 --> tag1819z1819z1845z9z12z15z + C00010
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag1819Z18111Z1835Z9Z12Z -> Triacylglycerol (18:1(9Z)/18:1(11Z)/18:3(5Z,9Z,12Z))                      
@@ -46,18 +48,20 @@ FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"11Z-octadecenoyl-CoA", 
 
 __cytop
 sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-(11Z-octadecenoyl)-CoA+ 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C00093 + C00510 --> BMGC272 + C00010
 
 __cytop
-1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
+(11Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC272 --> BMGC308 + C00010
 
+__cytop
+1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC308 + C00001 --> BMGC70108 + C00009
 
 __cytop
 (5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-(9Z-octadecenoyl)-2(11Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+fa1835z9z12zCoA + BMGC70108 --> tag1819z18111z1835z9z12z + C00010
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag1819Z18111Z1845Z9Z12Z15Z -> Triacylglycerol (18:1(9Z)/18:1(11Z)/18:4(5Z,9Z,12Z,15Z))                      
@@ -66,18 +70,20 @@ FattyAcids:  1-"9Z-octadecenoyl-CoA" aka: Oleoyl-CoA, 2-"11Z-octadecenoyl-CoA", 
 
 __cytop
 sn-Glycerol 3-phosphate + (9Z-octadecenoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C00093 + C00510 --> BMGC272 + C00010
 
 __cytop
 (11Z-octadecenoyl)-CoA+ 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C21945 + BMGC272 --> BMGC308 + C00010
 
 __cytop
-1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC308 + C00001 --> BMGC70108 + C00009
 
 __cytop
 (5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+fa1845z9z12z15zCoA + BMGC70108 --> tag1819z18111z1845z9z12z15z + C00010
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag18111Z1819Z1835Z9Z12Z -> Triacylglycerol (18:1(11Z)/18:1(9Z)/18:3(5Z,9Z,12Z))                      
@@ -86,18 +92,20 @@ FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z-oct
 
 __cytop
 sn-Glycerol 3-phosphate + (11Z-octadecenoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C00093 + C21945 --> BMGC6809 + C00010
 
 __cytop
 (9Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C00510 + BMGC6809 --> BMGC15451 + C00010
 
 __cytop
-1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC15451 + C00001 --> BMGC70102 + C00009
 
 __cytop
 (5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-(11Z-octadecenoyl)-2(9Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+fa1835z9z12zCoA + BMGC70102 --> tag18111z1819z1835z9z12z + C00010
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag18111Z1819Z1845Z9Z12Z15Z -> Triacylglycerol (18:1(11Z)/18:1(9Z)/18:3(5Z,9Z,12Z,15Z))                      
@@ -106,18 +114,20 @@ FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z,15Z
 
 __cytop
 sn-Glycerol 3-phosphate + (11Z-octadecenoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C00093 + C21945 --> BMGC6809 + C00010
 
 __cytop
 (9Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+C00510 + BMGC6809 --> BMGC15451 + C00010
 
 __cytop
-(5Z,9Z,12Z,15Z)-octadecatetranoyl-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-(11Z-octadecenoyl)-2(9Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC15451 + C00001 --> BMGC70102 + C00009
+
+__cytop
+(5Z,9Z,12Z,15Z)-octadecatetranoyl-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1-(11Z-octadecenoyl)-2(9Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+fa1845z9z12z15zCoA + BMGC70102 --> tag18111z1819z1845z9z12z15z + C00010
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag18111Z18111Z1835Z9Z12Z -> Triacylglycerol (18:1(11Z)/18:1(11Z)/18:3(5Z,9Z,12Z))                      
@@ -126,18 +136,20 @@ FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z-oc
 
 __cytop
 sn-Glycerol 3-phosphate + (11Z-octadecenoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-(11Z-octadecenoyl)-CoA+ 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C00093 + C21945 --> BMGC6809 + C00010
 
 __cytop
-1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
+(11Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC6809 --> BMGC38371 + C00010
 
+__cytop
+1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC38371 + C00001 --> BMGC70100 + C00009
 
 __cytop
 (5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1,2-di-(11Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+fa1835z9z12zCoA + BMGC70100 --> tag18111z18111z1835z9z12z + C00010
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag18111Z18111Z1845Z9Z12Z15Z -> Triacylglycerol (18:1(11Z)/18:1(11Z)/18:3(5Z,9Z,12Z,15Z))                      
@@ -146,18 +158,20 @@ FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z,15
 
 __cytop
 sn-Glycerol 3-phosphate + (11Z-octadecenoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-(11Z-octadecenoyl)-CoA+ 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
+C00093 + C21945 --> BMGC6809 + C00010
 
 __cytop
-1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
+(11Z-octadecenoyl)-CoA+ 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC6809 --> BMGC38371 + C00010
 
+__cytop
+1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC38371 + C00001 --> BMGC70100 + C00009
 
 __cytop
 (5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1,2-di-(11Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+fa1845z9z12z15zCoA + BMGC70100 --> tag18111z18111z1845z9z12z15z + C00010
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag1801819Z1835Z9Z12Z -> Triacylglycerol (18:0/18:1(9Z)/18:3(5Z,9Z,12Z))                      
@@ -166,18 +180,20 @@ FattyAcids:  1-"octadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z-octadec
 
 __cytop
 sn-Glycerol 3-phosphate + octadecanoyl-CoA => 1-octadecanoyl-sn-glycero-3-phosphate + CoA
-
+C00093 + C00412 --> BMGC277 + C00010
 
 __cytop
 (9Z-octadecenoyl)-CoA + 1-octadecenoyl-sn-glycero-3-phosphate => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecenoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+C00510 + BMGC277 --> BMGC278 + C00010
 
 __cytop
-(5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-octadecanoyl-2-(9Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC278 + C00001 --> BMGC70207 + C00009
+
+__cytop
+(5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-octadecanoyl-2-(9Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+fa1835z9z12zCoA + BMGC70207 --> tag1801819z1835z9z12z + C00010
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag1801819Z1845Z9Z12Z15Z -> Triacylglycerol (18:0/18:1(9Z)/18:4(5Z,9Z,12Z,15Z))                      
@@ -186,18 +202,20 @@ FattyAcids:  1-"octadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z,15Z-oct
 
 __cytop
 sn-Glycerol 3-phosphate + octadecanoyl-CoA => 1-octadecanoyl-sn-glycero-3-phosphate + CoA
-
+C00093 + C00412 --> BMGC277 + C00010
 
 __cytop
 (9Z-octadecenoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+C00510 + BMGC277 --> BMGC278 + C00010
 
 __cytop
-(5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-octadecanoyl-2-(9Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC278 + C00001 --> BMGC70207 + C00009
+
+__cytop
+(5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-octadecanoyl-2-(9Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+fa1845z9z12z15zCoA + BMGC70207 --> tag1801819z1845z9z12z15z + C00010
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag1601819Z1835Z9Z12Z -> Triacylglycerol (16:0/18:1(9Z)/18:3(5Z,9Z,12Z))                      
@@ -206,18 +224,20 @@ FattyAcids:  1-"hexadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z-octadec
 
 __cytop
 sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
-
+C00093 + C00154 --> BMGC136 + C00010
 
 __cytop
 (9Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+C00510 + BMGC136 --> BMGC137 + C00010
 
 __cytop
-(5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-hexadecanoyl-2-(9Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC137 + C00001 --> BMGC65015 + C00009
+
+__cytop
+(5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2-(9Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+fa1835z9z12zCoA + BMGC65015 --> tag1601819z1835z9z12z + C00010
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag1601819Z1845Z9Z12Z15Z -> Triacylglycerol (16:0/18:1(9Z)/18:4(5Z,9Z,12Z,15Z))                      
@@ -226,18 +246,20 @@ FattyAcids:  1-"hexadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z,15Z-oct
 
 __cytop
 sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
-
+C00093 + C00154 --> BMGC136 + C00010
 
 __cytop
 (9Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+C00510 + BMGC136 --> BMGC137 + C00010
 
 __cytop
-(5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-hexadecanoyl-2-(9Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC137 + C00001 --> BMGC65015 + C00009
+
+__cytop
+(5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2-(9Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+fa1845z9z12z15zCoA + BMGC65015 --> tag1601819z1845z9z12z15z + C00010
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Lipid: tag16018111Z1835Z9Z12Z -> Triacylglycerol (16:0/18:1(11Z)/18:3(5Z,9Z,12Z))                      
@@ -246,67 +268,631 @@ FattyAcids:  1-"hexadecanoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z-octade
 
 __cytop
 sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
-
+C00093 + C00154 --> BMGC136 + C00010
 
 __cytop
 (11Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+C21945 + BMGC136 --> BMGC41885 + C00010
 
 __cytop
-(5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-hexadecanoyl-2-(11Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC41885 + C00001 --> BMGC65013 + C00009
+
+__cytop
+(5Z,9Z,12Z)-octadecatrienoyl-CoA + 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2-(11Z-octadecenoyl)-3-(5Z,9Z,12Z-octadecatrienoyl)-sn-glycerol + CoA
+fa1835z9z12zCoA (Pinolenyl-CoA/C16162) + BMGC65013 --> tag16018111z1835z9z12z + C00010
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Lipid: tag16018111Z1845Z9Z12Z15Z -> Triacylglycerol (16:0/18:1(9Z)/18:4(5Z,9Z,12Z,15Z))                      
+Lipid: tag16018111Z1845Z9Z12Z15Z -> Triacylglycerol (16:0/18:1(11Z)/18:4(5Z,9Z,12Z,15Z))                      
 FattyAcids:  1-"hexadecanoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"5Z,9Z,12Z,15Z-octadecatetraenoyl-CoA"
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 __cytop
 sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
-
+C00093 + C00154 --> BMGC136 + C00010
 
 __cytop
 (11Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
-
-
-__cytop
-1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol + Orthophosphate
-
+C21945 + BMGC136 --> BMGC41885 + C00010
 
 __cytop
-(5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate)sn-glycerol => 1-hexadecanoyl-2-(11Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC41885 + C00001 --> BMGC65013 + C00009
+
+__cytop
+(5Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA + 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2-(11Z-octadecenoyl)-3-(5Z,9Z,12Z,15Z-octadecatetraenoyl)-sn-glycerol + CoA
+fa1845z9z12z15zCoA (Coniferonyl-CoA) + BMGC65013 --> tag16018111z1845z9z12z15z + C00010
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag16018111Z160 -> Triacylglycerol (16:0/18:1(11Z)/16:0)                      
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
 
+__cytop
+(11Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC136 --> BMGC41885 + C00010
 
+__cytop
+1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC41885 + C00001 --> BMGC65013 + C00009
 
+__cytop
+hexadecanoyl-CoA + 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol => 1,3-di-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol + CoA
+C00154 + BMGC65013 --> BMGC99060 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag16018111Z180 -> Triacylglycerol (16:0/18:1(11Z)/18:0)                      
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"octadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
 
+__cytop
+(11Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC136 --> BMGC41885 + C00010
 
+__cytop
+1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC41885 + C00001 --> BMGC65013 + C00009
 
+__cytop
+octadecanoyl-CoA + 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2-(11Z-octadecenoyl)-3-octadecanoyl-sn-glycerol + CoA
+C00412 + BMGC65013 --> BMGC98268 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag16018111Z18111Z -> Triacylglycerol (16:0/18:1(11Z)/18:1(11Z))                      
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"11Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
 
+__cytop
+(11Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC136 --> BMGC41885 + C00010
 
+__cytop
+1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC41885 + C00001 --> BMGC65013 + C00009
 
+__cytop
+(11Z-octadecenoyl)-CoA + 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2,3-di-(11Z-octadecenoyl)-sn-glycerol + CoA
+C21945 + BMGC65013 --> BMGC80146 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag16018111Z1819Z -> Triacylglycerol (16:0/18:1(11Z)/18:1(9Z))                      
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"9Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
 
+__cytop
+(11Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC136 --> BMGC41885 + C00010
 
+__cytop
+1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC41885 + C00001 --> BMGC65013 + C00009
 
+__cytop
+(9Z-octadecenoyl)-CoA + 1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2-(11Z-octadecenoyl)-3-(9Z-octadecenoyl)-sn-glycerol + CoA
+C00510 + BMGC65013 --> BMGC80148 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1601819Z18111Z -> Triacylglycerol (16:0/18:1(9Z)/18:1(11Z))                      
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"11Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
 
+__cytop
+(9Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC136 --> BMGC137 + C00010
 
+__cytop
+1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC137 + C00001 --> BMGC65015 + C00009
 
+__cytop
+(11Z-octadecenoyl)-CoA + 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2-(9Z-octadecenoyl)-3-(11Z-octadecenoyl)-sn-glycerol + CoA
+C21945 + BMGC65015 --> BMGC80154 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1801819Z18111Z -> Triacylglycerol (18:0/18:1(9Z)/18:1(11Z))                      
+FattyAcids:  1-"octadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"11Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+__cytop
+sn-Glycerol 3-phosphate + octadecanoyl-CoA => 1-octadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00412 --> BMGC277 + C00010
 
+__cytop
+(9Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC277 --> BMGC278 + C00010
 
+__cytop
+1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC278 + C00001 --> BMGC70207 + C00009
 
+__cytop
+(11Z-octadecenoyl)-CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-octadecanoyl-2-(9Z-octadecenoyl)-3-(11Z-octadecenoyl)-sn-glycerol + CoA
+C21945 + BMGC70207 --> BMGC111412 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag18111Z18111Z160 -> Triacylglycerol (18:1(11Z/18:1(11Z)/16:0)                      
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecanoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
 
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC6809 --> BMGC38371 + C00010
 
+__cytop
+1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC38371 + C00001 --> BMGC70100 + C00009
+
+__cytop
+hexadecanoyl-CoA + 1-(11Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol => 1,2-di-(11Z-octadecenoyl)-3-hexadecanoyl-sn-glycerol + CoA
+C00154 + BMGC70100 --> BMGC81902 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag18111Z18111Z180 -> Triacylglycerol (18:1(11Z/18:1(11Z)/18:0)                      
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"octadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecanoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC6809 --> BMGC38371 + C00010
+
+__cytop
+1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC38371 + C00001 --> BMGC70100 + C00009
+
+__cytop
+octadecanoyl-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1,2-di-(11Z-octadecenoyl)-3-octadecanoyl-sn-glycerol + CoA
+C00412 + BMGC70100 --> BMGC111526 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag18111Z18111Z18111Z -> Triacylglycerol (18:1(11Z/18:1(11Z)/18:1(11Z)                      
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"11Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecanoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC6809 --> BMGC38371 + C00010
+
+__cytop
+1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC38371 + C00001 --> BMGC70100 + C00009
+
+__cytop
+(11z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1,2,3-tri-(11Z-octadecenoyl)-sn-glycerol + CoA
+C21945 + BMGC70100 --> BMGC107660 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag18111Z18111Z1819Z -> Triacylglycerol (18:1(11Z/18:1(11Z)/18:1(9Z)                      
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"9Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecanoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC6809 --> BMGC38371 + C00010
+
+__cytop
+1,2-di-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC38371 + C00001 --> BMGC70100 + C00009
+
+__cytop
+(9z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1,2-di-(11Z-octadecenoyl)-3-(9Z-octadecenoyl)-sn-glycerol + CoA
+C00510 + BMGC70100 --> BMGC107662 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag18111Z1819Z160 -> Triacylglycerol (18:1(11Z/18:1(9Z)/16:0)                      
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecanoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC6809 --> BMGC15451 + C00010
+
+__cytop
+1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC15451 + C00001 --> BMGC70102 + C00009
+
+__cytop
+hexadecanoyl-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-3-hexadecanoyl-sn-glycerol + CoA
+C00154 + BMGC70102 --> BMGC81904 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag18111Z1819Z180 -> Triacylglycerol (18:1(11Z/18:1(9Z)/18:0)                      
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"octadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecanoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC6809 --> BMGC15451 + C00010
+
+__cytop
+1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC15451 + C00001 --> BMGC70102 + C00009
+
+__cytop
+octadecanoyl-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-3-octadecanoyl-sn-glycerol + CoA
+C00412 + BMGC70102 --> BMGC111528 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag18111Z1819Z18111Z -> Triacylglycerol (18:1(11Z/18:1(9Z)/18:1(11Z))                      
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"11Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecanoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC6809 --> BMGC15451 + C00010
+
+__cytop
+1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC15451 + C00001 --> BMGC70102 + C00009
+
+__cytop
+(11Z-octadecanoyl)-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1,3-di-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + CoA
+C21945 + BMGC70102 --> BMGC107668 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag18111Z1819Z1819Z -> Triacylglycerol (18:1(11Z/18:1(9Z)/18:1(9Z))                      
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"9Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (11Z-octadecanoyl)-CoA => 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C21945 --> BMGC6809 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC6809 --> BMGC15451 + C00010
+
+__cytop
+1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC15451 + C00001 --> BMGC70102 + C00009
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(11Z-octadecenoyl)-2-(9Z-octadecenoyl)-sn-glycerol => 1-(11Z-octadecenoyl)-2,3-(9Z-octadecenoyl)-sn-glycerol + CoA
+C00510 + BMGC70102 --> BMGC107670 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1819Z18111Z160 -> Triacylglycerol (18:1(9Z/18:1(11Z)/16:0)                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecanoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC272 --> BMGC308 + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC308 + C00001 --> BMGC70108 + C00009
+
+__cytop
+hexadecanoyl-CoA + 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-3-hexadecanoyl-sn-glycerol + CoA
+C00154 + BMGC70108 --> BMGC81934 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1819Z18111Z180 -> Triacylglycerol (18:1(9Z/18:1(11Z)/18:0)                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"octadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecanoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC272 --> BMGC308 + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC308 + C00001 --> BMGC70108 + C00009
+
+__cytop
+octadecanoyl-CoA + 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-3-octadecanoyl-sn-glycerol + CoA
+C00412 + BMGC70108 --> BMGC111562 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1819Z18111Z18111Z -> Triacylglycerol (18:1(9Z/18:1(11Z)/18:1(11Z)                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"11z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecanoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC272 --> BMGC308 + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC308 + C00001 --> BMGC70108 + C00009
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol => 1-(9Z-octadecenoyl)-2,3-di-(11Z-octadecenoyl)-sn-glycerol + CoA
+C21945 + BMGC70108 --> BMGC107716 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1819Z1819Z18111Z -> Triacylglycerol (18:1(9Z/18:1(9Z)/18:1(11Z)                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"11z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecanoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC272 --> BMGC400 + C00010
+
+__cytop
+1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC400 + C00001 --> BMGC70110 + C00009
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1,2-di-(9Z-octadecenoyl)-sn-glycerol => 1,2-di-(9Z-octadecenoyl)-3-(11Z-octadecenoyl)-sn-glycerol + CoA
+C21945 + BMGC70110 --> BMGC107724 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1601819Z160 -> Triacylglycerol (16:0/18:1(9Z)/16:0)                      
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC136 --> BMGC137 + C00010
+
+__cytop
+1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC137 + C00001 --> BMGC65015 + C00009
+
+__cytop
+hexadecanoyl-CoA + 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1,3-di-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + CoA
+C00154 + BMGC65015 --> BMGC99062 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1601819Z180 -> Triacylglycerol (16:0/18:1(9Z)/18:0)                      
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"octadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC136 --> BMGC137 + C00010
+
+__cytop
+1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC137 + C00001 --> BMGC65015 + C00009
+
+__cytop
+octadecanoyl-CoA + 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2-(9Z-octadecenoyl)-3-octadecanoyl-sn-glycerol + CoA
+C00412 + BMGC65015 --> BMGC98270 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1601819Z1819Z -> Triacylglycerol (16:0/18:1(9Z)/18:1(9Z))                      
+FattyAcids:  1-"hexadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"9Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + hexadecanoyl-CoA => 1-hexadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00154 --> BMGC136 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-hexadecanoyl-sn-glycero-3-phosphate => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC136 --> BMGC137 + C00010
+
+__cytop
+1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC137 + C00001 --> BMGC65015 + C00009
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-hexadecanoyl-2,3-di-(9Z-octadecenoyl)-sn-glycerol + CoA
+C00510 + BMGC65015 --> BMGC80156 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1801819Z160 -> Triacylglycerol (18:0/18:1(9Z)/16:0)                      
+FattyAcids:  1-"octadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + octadecanoyl-CoA => 1-octadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00412 --> BMGC277 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC277 --> BMGC278 + C00010
+
+__cytop
+1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC278 + C00001 --> BMGC70207 + C00009
+
+__cytop
+hexadecanoyl-CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-octadecanoyl-2-(9Z-octadecenoyl)-3-hexadecanoyl-sn-glycerol + CoA
+C00154 + BMGC70207 --> BMGC102109 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1801819Z180 -> Triacylglycerol (18:0/18:1(9Z)/18:0)                      
+FattyAcids:  1-"octadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"octadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + octadecanoyl-CoA => 1-octadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00412 --> BMGC277 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC277 --> BMGC278 + C00010
+
+__cytop
+1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC278 + C00001 --> BMGC70207 + C00009
+
+__cytop
+octadecanoyl-CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1,3-di-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + CoA
+C00412 + BMGC70207 --> BMGC116699 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1801819Z1819Z -> Triacylglycerol (18:0/18:1(9Z)/18:1(9Z))                      
+FattyAcids:  1-"octadecanoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"9Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + octadecanoyl-CoA => 1-octadecanoyl-sn-glycero-3-phosphate + CoA
+C00093 + C00412 --> BMGC277 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-octadecanoyl-sn-glycero-3-phosphate => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC277 --> BMGC278 + C00010
+
+__cytop
+1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC278 + C00001 --> BMGC70207 + C00009
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycerol => 1-octadecanoyl-2,3-di-(9Z-octadecenoyl)-sn-glycerol + CoA
+C00510 + BMGC70207 --> BMGC111414 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1819Z18111Z1819Z -> Triacylglycerol (18:1(9Z)/18:1(11Z)/18:1(9Z)                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"11Z-octadecenoyl-CoA", 3-"9z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecanoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(11Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C21945 + BMGC272 --> BMGC308 + C00010
+
+__cytop
+1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC308 + C00001 --> BMGC70108 + C00009
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol => 1,3-di-(9Z-octadecenoyl)-2-(11Z-octadecenoyl)-sn-glycerol + CoA
+C00510 + BMGC70108 --> BMGC107718 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1819Z1819Z160 -> Triacylglycerol (18:1(9Z/18:1(9Z)/16:0)                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"hexadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecanoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC272 --> BMGC400 + C00010
+
+__cytop
+1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC400 + C00001 --> BMGC70110 + C00009
+
+__cytop
+hexadecanoyl-CoA + 1,2-di-(9Z-octadecenoyl)-sn-glycerol => 1,2-di-(9Z-octadecenoyl)-3-hexadecanoyl-sn-glycerol + CoA
+C00154 + BMGC70110 --> BMGC81936 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1819Z1819Z180 -> Triacylglycerol (18:1(9Z/18:1(9Z)/18:0)                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"octadecanoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecanoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC272 --> BMGC400 + C00010
+
+__cytop
+1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC400 + C00001 --> BMGC70110 + C00009
+
+__cytop
+octadecanoyl-CoA + 1,2-di-(9Z-octadecenoyl)-sn-glycerol => 1,2-di-(9Z-octadecenoyl)-3-octadecanoyl-sn-glycerol + CoA
+C00412 + BMGC70110 --> BMGC111564 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: tag1819Z1819Z1819Z -> Triacylglycerol (18:1(9Z/18:1(9Z)/18:1(9Z))                      
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"9Z-octadecenoyl-CoA", 3-"9Z-octadecenoyl-CoA"
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__cytop
+sn-Glycerol 3-phosphate + (9Z-octadecanoyl)-CoA => 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00093 + C00510 --> BMGC272 + C00010
+
+__cytop
+(9Z-octadecenoyl)-CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate => 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + CoA
+C00510 + BMGC272 --> BMGC400 + C00010
+
+__cytop
+1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H2O => 1,2-di-(9Z-octadecenoyl)-sn-glycerol + Orthophosphate
+BMGC400 + C00001 --> BMGC70110 + C00009
+
+__cytop
+9Z-octadecenoyl-CoA + 1,2-di-(9Z-octadecenoyl)-sn-glycerol => 1,2,3-tri-(9Z-octadecenoyl)-3-octadecanoyl-sn-glycerol + CoA
+C00510 + BMGC70110 --> BMGC107726 + C00010
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 

@@ -1,0 +1,153 @@
+R_T_HCO3th__chlomem (HCO3- de cytop para chlo) / gene: KAF5831633_1
+------------------------------------------------------
+R_T_ACCOAth__chlomem (acetyl-coa de cytop para chlo e coa ao contrario)
+-------------------------------------------------------------
+R_T_COAth__chlomem (CoA do cytop para chlo)
+-----------------------------
+R_T_O2th__chlomem (O2 do cytop para chlo)
+--------------------------------------
+R_T_O2tr__ermem (O2 de cytop para er e vice-versa)
+------------------------------
+R_T_H2Oth (H2O de cytop para chlo)
+----------------------------
+R_T_H2Otr__ermem (H2O de cytop para e.r e vice-versa)
+------------------------
+R_T_H2Otm__mitmem (H2O de cytop para mito e vice-versa)
+-------------------------------
+R_T_UMPth__chlomem (UMP de cytop para chlo)
+-------------------------------
+R_T_FA1819Ztr__ermem (fa1819z do cytop para o er)
+------------------------------
+R_T_FA1819Zh__chlomem (fa1819z do chlo para o cytop); ha outra que faz o mesmo com atp (ver)
+----------------------------
+R_T_PYDXNth__chlomem (piridoxine de cytop para chlo e vice-versa)
+----------------------------
+R_T_PYDXth__chlomem (pyridoxal entre cytop e chlo)
+--------------------------
+R_T_COAtr__ermem (CoA do cytop para er)
+--------------------
+R_T_FA160r__ermem (fa160 do cytop para er)
+---------------------------
+R_T_FA180r__ermem (fa180 do cytop para er)
+-------------------------------------------
+R_T_FA18111z__ermem (fa18111z do er para cytop)
+---------------------------
+R_T_FA18111z_CHLOMEM__chlomem (fa18111z do cytop para chlo)
+---------------------------
+R_TI2903718_ERMEM__ermem (ATP e AMP de cytop para e.r ......)
+------------------------------------------
+R_TO0000080_ERMEM__ermem (trasnporte de sn-glycerol-phosphate do cytop para er)
+-------------------------------------
+R_TR0000020_MITMEM (piruvate de cytop para mito)
+----------------------------
+R_T_PMTCOAth__chlomem (palmitoyl-coa do chlo para cytop)
+------------------------------
+R_T_SAMth__chlomem (s-adenosyl-metionina de cytop para chlo)
+-----------------------------------------------------
+R_T_SAMtr__ermem (s-adenosyl-metionina de cytop para er e vice-versa)
+-----------------------
+R_T_METth__chlomem (L-metionine entre cytop e chlo e vice-versa)
+--------------------------
+formate, CO, deoxyadenosine, nicotinamide, 
+------------------------------------------
+R_TR2918360_ERMEM__ermem (s-adenosyl metionina e homocysteine entre er e cytop)
+----------------------------------
+R_TR2000078_CHLOMEM__chlomem (Orthophosphate de cytop para chlo e glycerone phosphate ao contrario)
+-----------------------------------------
+R_T_ADPth__chlomem (ADP de chlo para cytop) ->> ver estas: R_T_NDT1_NAD_ADP__chlomem; R_T_NTT2__chlomem
+-------------------------------------
+R_T_CTPth__chlomem (CTP de chlo para cytop)
+----------------------
+R_T_CTPtr__ermem (CTP de cytop para e.r e vice-versa)
+--------------------------
+R_T_Myo_inositol__ermem (myo-inositol de cytop para e.r e vice-versa)
+----------------------------
+R_T_CMPth__chlomem (CMP de chlo para cytop e vice-versa)
+------------------------------
+R_T_CMPtr__ermem (CMP de er para cytop e vice-versa)
+--------------------------
+R_T_FA180COAtr__ermem (stearoyl-coa de cytop para e.r e vice-versa)
+------------------------------
+R_T_PIter__ermem (orthophosphate de cytop para e.r e vice-versa)
+-----------------------------
+R_T_CDPETHAtr__ermem (CDP-ethanolamine de cytop para er e vice-versa)
+---------------------------------
+R_T_NADHtr__ermem (NADH de cytop para er)
+--------------------------------------------
+R_T_NADtr__ermem (NAD+ de cytop para er)
+-----------------------------
+R_T_NADPHtr__ermem (NAPDH de cytop para er e vice-versa)
+-----------------------------
+R_T_NADPtr__ermem (NADP+ de cytop para er e vice-versa)
+---------------------------
+R_T_FA1619Zh__chlomem (fa1619z de chlo para cytop)
+--------------------------
+R_T_FA1619Zr__ermem (fa1619z de cytop para er e vice-versa)
+--------------------------------------
+R_T_MLNCOAtx__ermem (malonyl-coa de cytop para er e vice-versa)
+--------------------------------
+R_T_CO2tr__ermem (CO2 de cytop para er e vice-versa)
+------------------------
+R_T_CO2th__chlomem (CO2 de cytop para chlo e vice-versa)
+------------------------------------
+R_T_CO2tm__mitmem (CO2 de cytop para mito e vice-versa)
+------------------------
+R_T_NH4th__chlomem (amonia de cytop para chlo e vice-versa)
+-------------------------
+R_T_THMPth__chlomem (thiamine-monophosphate de cytop para chlo e vice-versa)
+--------------------------------------
+R_T_THDtm__mitmem (thiamine-diphosphate de cytop para mito)
+-----------------------------------
+R_TO3000761_CHLOMEM__chlomem (sulfate de cytop para chlo com atp e ortho)
+-------------------------------------
+R_T_GLYth__chlomem (glycine de cytop para chlo e vice-versa)
+----------------------
+R_T_LEUth__chlomem (Leucine entre cytop e chlo)
+--------------------------------
+R_T_GLUth__chlomem (glutamate entre cytop e chlo e vice-versa)
+-------------------------------
+R_T_FTH__chlomem (formyl tetrahydrofolate de cytop para chlo/ eu adicionei, nao vi no outro modelo)
+----------------------------------
+R_T_GLUCYSth__chlomem (g-gama-gkutamyl-cysteine de chlo para cytop)
+---------------------------------
+R_TR2000081_CHLOMEM__chlomem (orthophosphate e 3 phosphoglycerate entre chlo e cytop)
+--------------------------------------------
+R_TR2000079_CHLOMEM__chlomem (orthophosphate e alpha-D-Glucose 6-phosphate entre chlo e cytop)
+-------------------------------------
+R_TR2000863_CHLOMEM__chlomem (orthophosphate e beta-D-Glucose 6-phosphate entre chlo e cytop)
+-------------------------------------------
+R_T_PANTtm__mitmem (R-pantoate de cytop para mito e vice-versa)
+---------------------------
+R_T_MLTHFtm__mitmem (5,10-Methylenetetrahydrofolate de cytop para mito e vice-versa)
+---------------------------------
+R_T_THFtm__mitmem (Tetrahydrofolate de cytop para mito e vice-versa)
+-------------------------
+R_T_ABCFA160tx__permem (hexadecanoic acid de cytop para pero com atp)
+----------------------------------
+R_T_FA160COAtx__permem (palmitoyl-coa de cytop para pero)
+-----------------------------------------
+R_TR2000043_CHLOMEM__chlomem (UDP-alfa-galactose de cytop para chlo e UDP ao contrario) 
+---------------------------------
+R_T_H2Sth__chlomem (hydrogen sulfyde de cytop para chlo) #nao adicionei ainda
+---------------------------------------------------
+R_T_CO2th__chlomem
+---------------------------------
+R_T_NO3th__chlomem
+----------------------------
+R_TO1000009_CHLOMEM__chlomem
+--------------------------------
+R_TO3000761_CHLOMEM__chlomem
+---------------------------------
+R_TO0000254_CHLOMEM__chlomem
+---------------------------------
+R_T_FE2th__chlomem
+------------------------------------
+R_T_COAth__chlomem
+-------------------------
+R_T_ABCFA182th__chlomem  (linoleate)
+-----------------------------------------------
+R_T_ABCFACOA182th  (linoleoyl-CoA)
+-----------------------------------------
+R_T_FA180r__ermem (octadecanoic acid de cytop para er)
+--------------------------------------------------
+T_ABCFA181th__chlomem (9z-octadecenoic acid de cytop para chlo)

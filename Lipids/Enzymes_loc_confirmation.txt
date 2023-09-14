@@ -1,0 +1,105 @@
+Enzima: 2.3.1.15
+Genes: KAI3425094.1 (mitochondrion membrane); D9Q98_003072 (nuclear); D9Q98_004271 (er_membrane)
+TargetP: Other; Thylakoid luminal transfer peptide; Other
+DeepLoc: Mitochondrion, Membrane; Plastid, Membrane; Endoplasmic reticulum, Membrane
+________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.3.1.51
+Genes: D9Q98_000397 (er_membrane); D9Q98_000972 (mitochondria); KAI3425224.1 (er_membrane); D9Q98_004271 (er_membrane); D9Q98_002639 (chloroplast membrane)
+TargetP: Signal peptide;
+DeepLoc: Mitochondrion, Membrane;
+
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 3.1.3.4
+Genes: D9Q98_000920 (vacuolar_membrane)
+TargetP: Other
+DeepLoc:
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.3.1.20
+Genes: D9Q98_005053 (er_membrane); D9Q98_002077 (er_membrane); D9Q98_004840 (er_membrane)
+TargetP: Other; Other; Other
+DeepLoc: Endoplasmic reticulum, Membrane; Endoplasmic reticulum, Membrane; Endoplasmic reticulum, Membrane 
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.4.1.46 
+Genes: KAI3425012.1 (cytoplasmic)
+TargetP: Other
+DeepLoc: Plastid, Soluble
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.4.1.241
+Genes: D9Q98_000707 (extracellular)
+TargetP: Other; 
+DeepLoc: Plastid, Soluble
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: SQD2 --> 2.1.1.
+Genes: D9Q98_004144 (chloroplast)
+TargetP: Thylakoid luminal transfer peptide
+DeepLoc:
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.7.7.41
+Genes: D9Q98_003043 (er_membrane); D9Q98_007626 (er_membrane); D9Q98_003046 (nuclear); D9Q98_001276 (chloroplast membrane); KAI3424325.1 (cytoplasmic)	
+TargetP:
+DeepLoc:
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.7.8.11
+Genes: D9Q98_005807 (mitochondria)	
+TargetP: Other
+DeepLoc: Endoplasmic reticulum, Membrane
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.7.8.5
+Genes: D9Q98_004727 (cytoplasmic); D9Q98_002699 (mitochondria); D9Q98_005720 (mitochondria); D9Q98_006789 (mitochondrion membrane); D9Q98_005080 (mitochondria)
+TargetP: Other;
+DeepLoc: ;
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 3.1.3.27
+Genes: D9Q98_010462 (extracellular)
+TargetP: Other
+DeepLoc: Mitochondrion, Membrane
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.7.8.1
+Genes: D9Q98_007899 (golgi_membrane)
+TargetP: Other
+DeepLoc: Endoplasmic reticulum, Membrane
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.1.1.17 
+Genes: D9Q98_000810 (chloroplast)
+TargetP: Thylakoid luminal transfer peptide
+DeepLoc: Mitochondrion, Membrane
+_________________________________________________________________________________________________________________________________________________________________
+
+Enzima: 2.1.1.71
+Genes: D9Q98_003456 (extracellular)
+TargetP: Other
+DeepLoc: Endoplasmic reticulum, Membrane
+_________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

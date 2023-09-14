@@ -1,0 +1,40 @@
+Lipid: pail18111Z160 -> 1-Phosphatidyl-D-myo-inositol (1-(11Z)-octadecenoyl,2-hexadecanoyl)
+FattyAcids:  1-"11Z-octadecenoyl-CoA", 2-"hexadecanoyl-CoA"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+__cytop: 	
+(11Z)-octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(11Z-octadecenoyl)-sn-glycero-3-phosphate
+C21945 + C00093 --> C00010 + BMGC6809
+
+__cytop: 
+hexadecanoyl-CoA + 1-(11z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate
+C00154 + BMGC6809 --> C00010 + BMGC15462
+
+__cytop: 
+1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CTP => Diphosphate + CDP-1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol
+BMGC15462 + C00063 --> C00013 + BMGC540734
+
+__cytop:
+CDP-1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + myo-Inositol => CMP + 1-(11Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phospho-1D-myo-inositol
+BMGC540734 + C00137 --> C00055 + BMGC4854
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Lipid: pail1819Z160 -> 1-Phosphatidyl-D-myo-inositol (1-(9Z)-octadecenoyl,2-hexadecanoyl)
+FattyAcids:  1-"9Z-octadecenoyl-CoA", 2-"hexadecanoyl-CoA"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+__cytop: 	
+(9Z)-octadecenoyl-CoA + sn-Glycerol 3-phosphate => CoA + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate
+C00510 + C00093 --> C00010 + BMGC272
+
+__cytop: 
+hexadecanoyl-CoA + 1-(9z-octadecenoyl)-sn-glycero-3-phosphate => CoA + 1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate
+C00154 + BMGC272 --> C00010 + BMGC273
+
+__cytop: 
+1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phosphate + CTP => Diphosphate + CDP-1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol
+BMGC273 + C00063 --> C00013 + BMGC540902
+
+__cytop:
+CDP-1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycerol + myo-Inositol => CMP + 1-(9Z-octadecenoyl)-2-hexadecanoyl-sn-glycero-3-phospho-1D-myo-inositol
+BMGC540902 + C00137 --> C00055 + BMGC42965
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------

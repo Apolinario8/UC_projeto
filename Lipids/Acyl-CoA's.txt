@@ -1,0 +1,71 @@
+reaction: R_acyl189z  (Produzir 9z-octadecenoyl-CoA), fazer o mesmo no er                                            Enzima: 6.2.1.3
+
+ATP + CoA + (9Z)-Octadecenoic acid (Octadecenoate (18:1(9Z))) => Diphosphate + AMP + Oleoyl-CoA 
+C00002 + C00010 + C00712 --> C00013 + C00020 + C00510
+__________________________________________________________________________________________________
+
+reaction: R_acyl180 (Produzir octadecanoyl-CoA)
+
+ATP + CoA + Octadecanoic acid => Diphosphate + AMP + Octadecanoyl-CoA
+C00002 + C00010 + C01530 --> C00013 + C00020 + C00412
+__________________________________________________________________________________________________
+
+reaction: R_acyl1829z12z (Produzir 9z,12z-octadecadienoyl-CoA)
+
+linoleate (linoleic acid) + CoA + ATP => linoleoyl-CoA + AMP + diphosphate
+C01595 + C00010 + C00002 --> C02050 + C00020 + C00013
+_____________________________________________________________________________________________ 
+
+reaction: R_acyl1619z (Produzir 9z-hexadecenoyl-CoA)     
+
+ATP + CoA + (9z)-hexadecenoic acid => Diphosphate + AMP + (9z)-hexadecenoyl-CoA
+C00002 + C00010 + C08362 --> C00013 + C00020 + C21072
+__________________________________________________________________________________________________
+
+reaction: R_acyl1845z9z12z15z
+
+ATP + CoA + Coniferonic acid (5z,9z,12z,15z-octadecatetraenoic acid) => Diphosphate + AMP + coniferonyl-CoA (5z,9z,12z,15z-octadecatetraenoyl-coa)
+C00002 + C00010 + ---- --> C00013 + C00020 + fa1845z9z12z15zCoA
+____________________________________________________________________________________________________________________________________________________
+
+reaction: R_acyl1835z9z12z
+
+ATP + CoA + Pinolenic acid (5z,9z,12z-octadecatrienoic acid) => Diphosphate + AMP + Pinolenyl-coa (5z,9z,12z-octadecatrienoyl-coa)
+C00002 + C00010 + ---- --> C00013 + C00020 + fa1835z9z12zCoA
+____________________________________________________________________________________________________________________________________________________
+
+reactions: (Produzir 11z-octadecenoyl-CoA/vem do 1619zcoa)                                                      
+
+1- R_1819zcoa1
+ - Palmitoleoyl-CoA + Malonyl-CoA => (9Z)-3-oxooctadec-11-enoyl-CoA + CO2 + CoA   (2.3.1.199)
+ - C21072 + C00083 =>  9zocoa + C00011 + C00010 
+
+2- R_1819zcoa2
+ - 3-oxoacyl-CoA + NADPH + H+ => Very-long-chain (3R)-3-hydroxyacyl-CoA + NADP+  (1.1.1.330)
+ - 9zocoa + C00005 => bla + C00006
+
+3- R_1819zcoa3
+ - Very-long-chain (3R)-3-hydroxyacyl-CoA => Very-long-chain trans-2,3-dehydroacyl-CoA + H2O  (4.2.1.134)
+ - bla => bla + C00001
+
+4- R_1819zcoa4
+ - Very-long-chain trans-2,3-dehydroacyl-CoA + NADPH + H+ => 11z-octadecenoyl-CoA + NADP+   (1.3.1.93)
+ - bla + C00005 => C21945 + C00006
+______________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
