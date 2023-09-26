@@ -1,0 +1,21 @@
+SULFUR METABOLISM
+
+-> Other reactions
+R05717 (1.8.4.9), R00533 (1.8.3.1), 
+
+------------------------------------------
+-----------------------------------------------
+TERPENOID BACKBONE BIOSYNTHESIS
+
+-> 
+R09250 (2.5.1.84), R09251 (2.5.1.85), R09248 (2.5.1.90), 
+
+-> Other reactions
+R08689 (1.17.7.1), 
+
+---------------------------------------
+R_RXN_12753__mito (retirei do model_compare)	
+R_OAADCO__mito (retirei do model_compare)
+R_PRODISULFREDUCT_A_RXN__chlo (retirei do model_compare)
+R_RXN_13031__chlo - nao meti
+R_I4FE4SS__chlo - nao meti

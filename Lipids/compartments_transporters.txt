@@ -4,12 +4,52 @@ R_T_ACCOAth__chlomem (acetyl-coa de cytop para chlo e coa ao contrario)
 -------------------------------------------------------------
 R_T_COAth__chlomem (CoA do cytop para chlo)
 -----------------------------
+R_TO0000254_CHLOMEM__chlomem (magnesium cation entre cytop e chlo)
+-------------------------------------------
+R_T_COAtm__mitmem (CoA entre cytop e mito)
+-------------------------
+R_T_FUMth__chlomem (fumarate entre chlo e cytop)
+-------------------
+R_T_DHORSth__chlomem (dihydroorotate entre cytop e chlo)
+----------------------
+R_T_LIPOth__chlomem (R-lipoate entre chlo e cytop)
+----------------------------
+R_TR0000223_CHLOMEM__chlomem (glycerate e glycolate entre cytop e chlo)
+--------------------------------
+R_T_GLYCLTth__chlomem (glycolate entre cytop e chlo)
+------------------------------
+R_T_SERt2m__chlomem (serine entre cytop e chlo)
+-------------------------
 R_T_O2th__chlomem (O2 do cytop para chlo)
 --------------------------------------
+R_T_O2tm__mitmem (O2 entre cytop e mito)
+----------------------
 R_T_O2tr__ermem (O2 de cytop para er e vice-versa)
+------------------------------
+R_T_SUCFUMth__chlomem (succinate e fumarate entre chlo e cytop)
+----------------------------------
+R_TR2918360_CHLOMEM__chlomem (homocysteine e metionine entre cytop e chlo)
+---------------------------------
+R_T_PPIth__chlomem (diphosphate entre ctop e chlo)
+----------------------
+R_T_AMPtm__mitmem (AMP entre cytop e mito)
+-----------------------
+R_T_SOXtm__mitmem (superoxide entre cytop e mito)
+--------------------------
+R_T_CHORth__chlomem (chorismate entre cytop e chlo)
+-------------------------
+R_T_NDT1_NAD_UTP__chlomem (NAD+ de cytop para chlo e udp ao contrario)
+------------------------------------
+R_T_FRDPtm__mitmem (trans,trans-Farnesyl diphosphate de cytop para mito e vice-versa)
+----------------------------
+R_T_IPDPtm__mitmem (isopentenyl diphospohate entre cytop e mito)
+----------------------------
+R_T_IPDPth__chlomem (isopentenyl diphospohate entre cytop e chlo)
 ------------------------------
 R_T_H2Oth (H2O de cytop para chlo)
 ----------------------------
+R_T_4HBZtm__mitmem (hydroxybenzoate entre cytop e chlo)
+-------------------------
 R_T_H2Otr__ermem (H2O de cytop para e.r e vice-versa)
 ------------------------
 R_T_H2Otm__mitmem (H2O de cytop para mito e vice-versa)
@@ -40,12 +80,16 @@ R_TO0000080_ERMEM__ermem (trasnporte de sn-glycerol-phosphate do cytop para er)
 -------------------------------------
 R_TR0000020_MITMEM (piruvate de cytop para mito)
 ----------------------------
+R_TR2918360_MITMEM__mitmem (homocysteine da mito para cytop e a-metionine ao contrario)
+------------------------------
 R_T_PMTCOAth__chlomem (palmitoyl-coa do chlo para cytop)
 ------------------------------
 R_T_SAMth__chlomem (s-adenosyl-metionina de cytop para chlo)
 -----------------------------------------------------
 R_T_SAMtr__ermem (s-adenosyl-metionina de cytop para er e vice-versa)
 -----------------------
+R_T_SAMtm__mitmem (s-adenosyl-metionina de cytop para mito e vice-versa)
+-------------------------------
 R_T_METth__chlomem (L-metionine entre cytop e chlo e vice-versa)
 --------------------------
 formate, CO, deoxyadenosine, nicotinamide, 
