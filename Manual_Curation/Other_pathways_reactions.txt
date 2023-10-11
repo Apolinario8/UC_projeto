@@ -19,3 +19,5 @@ R_OAADCO__mito (retirei do model_compare)
 R_PRODISULFREDUCT_A_RXN__chlo (retirei do model_compare)
 R_RXN_13031__chlo - nao meti
 R_I4FE4SS__chlo - nao meti
+-------------------------------------------------------
+All reactions related to photons were taken ffrom model_compare
