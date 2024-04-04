@@ -1,0 +1,39 @@
+Chlorella vulgaris growth rates:
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+METHANE UTILIZATION IN MICROALGAE/CHLORELLA:
+
+- Highly efficient methane generation from untreated microalgae biomass -> Chlamydomonas reinhardtii
+- A critical review on anaerobic digestion of microalgae and macroalgae and co-digestion of biomass for enhanced methane generation
+- Experimental study on a coupled process of production and anaerobic digestion of Chlorella vulgaris
+- Methanotroph-microalgae co-culture for greenhouse gas mitigation: Effect of initial biomass ratio and methane concentration
+- Methane-Derived Carbon as a Driver for Cyanobacterial Growth
+
+- Methane Oxidation via Chemical and Biological Methods: Challenges and Solutions
+---------------------------------------------------------------------------------------------------------------------
+
+GENES AND ENZYMES RELATED TO METHANE:
+
+- Alkane Oxidation: Methane Monooxygenases, Related Enzymes, and Their Biomimetics
+
+----------------------------------------------------------------------------------------------------------
+
+MODELS WITH METHANE:
+
+- Development of a Chlamydomonas reinhardtii metabolic network dynamic model to describe distinct phenotypes occurring at different CO2 levels -> considera methanol na reconstrução (não tem methane); 
+
+ENZIMAS: Methanol: NAD+ oxidoreductase
+ 	 Methanol Oxygen oxidoreductase
+	 Methanol: Hydrogen peroxide oxidoreductase
+	 Pimeloyl-[ACP] methyl ester esterase
+         Methanol exchange
+
+
+- Advances in metabolic modeling of oleaginous microalgae
+- Current status and applications of genome-scale metabolic models

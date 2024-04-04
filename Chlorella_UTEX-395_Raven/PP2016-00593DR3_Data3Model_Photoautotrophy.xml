@@ -15900,7 +15900,7 @@
         <listOfReactants>
           <speciesReference species="M_acaro_h" stoichiometry="0.000504181739366499"/>
           <speciesReference species="M_ala_DASH_L_c" stoichiometry="0.13545777"/>
-          <speciesReference species="M_anxan_u" stoichiometry="0.0001008363478733"/>
+          <speciesReference species="M_anxan_u" stoichiometry="0.0001008363478733"/> L-ARABINOSE
           <speciesReference species="M_arab_DASH_L_c" stoichiometry="0.057593908"/>
           <speciesReference species="M_arg_DASH_L_c" stoichiometry="0.001101839"/>
           <speciesReference species="M_asn_DASH_L_c" stoichiometry="0.096538287"/>
@@ -15951,8 +15951,8 @@
           <speciesReference species="M_dgts1839Z12Z15Z1835Z9Z12Z_c" stoichiometry="0.00108182884876041"/>
           <speciesReference species="M_dgts1839Z12Z15Z1845Z9Z12Z15Z_c" stoichiometry="0.000406767159364802"/>
           <speciesReference species="M_dttp_c" stoichiometry="0.00217969321079621"/>
-          <speciesReference species="M_gal_c" stoichiometry="0.160831278"/>
-          <speciesReference species="M_glc_DASH_A_c" stoichiometry="1.427343244"/>
+          <speciesReference species="M_gal_c" stoichiometry="0.160831278"/>    D-GALACTOSE
+          <speciesReference species="M_glc_DASH_A_c" stoichiometry="1.427343244"/>  ALPHA-D-GLUCOSE
           <speciesReference species="M_gln_DASH_L_c" stoichiometry="0.041309492"/>
           <speciesReference species="M_glu_DASH_L_c" stoichiometry="0.122168305"/>
           <speciesReference species="M_gly_c" stoichiometry="0.118089591"/>
@@ -15964,7 +15964,7 @@
           <speciesReference species="M_loroxan_u" stoichiometry="0.000655436261176449"/>
           <speciesReference species="M_lut_u" stoichiometry="0.00126045434841625"/>
           <speciesReference species="M_lys_DASH_L_c" stoichiometry="0.061146879"/>
-          <speciesReference species="M_man_c" stoichiometry="0.109064596"/>
+          <speciesReference species="M_man_c" stoichiometry="0.109064596"/>  D-Mannose
           <speciesReference species="M_met_DASH_L_c" stoichiometry="0.023719715"/>
           <speciesReference species="M_mgdg1819Z160_h" stoichiometry="0.004338649"/>
           <speciesReference species="M_mgdg1819Z1617Z_h" stoichiometry="0.003990397"/>
@@ -16009,7 +16009,7 @@
           <speciesReference species="M_sqdg1819Z160_h" stoichiometry="0.008387013"/>
           <speciesReference species="M_sqdg1829Z12Z160_h" stoichiometry="0.004253896"/>
           <speciesReference species="M_sqdg1839Z12Z15Z160_h" stoichiometry="0.004534475"/>
-          <speciesReference species="M_starch300_h" stoichiometry="0.146003758"/>
+          <speciesReference species="M_starch300_h" stoichiometry="0.146003758"/>  STARCH
           <speciesReference species="M_tag16018111Z160_c" stoichiometry="0.001429401"/>
           <speciesReference species="M_tag16018111Z180_c" stoichiometry="0.00112675"/>
           <speciesReference species="M_tag16018111Z18111Z_c" stoichiometry="0.001950848"/>

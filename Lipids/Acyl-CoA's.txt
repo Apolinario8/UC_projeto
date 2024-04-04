@@ -34,7 +34,7 @@ ATP + CoA + Pinolenic acid (5z,9z,12z-octadecatrienoic acid) => Diphosphate + AM
 C00002 + C00010 + ---- --> C00013 + C00020 + fa1835z9z12zCoA
 ____________________________________________________________________________________________________________________________________________________
 
-reactions: (Produzir 11z-octadecenoyl-CoA/vem do 1619zcoa)                                                      
+reactions: (Produzir 11z-octadecenoyl-CoA/vem do 1619zcoa) ?????                                                     
 
 1- R_1819zcoa1
  - Palmitoleoyl-CoA + Malonyl-CoA => (9Z)-3-oxooctadec-11-enoyl-CoA + CO2 + CoA   (2.3.1.199)

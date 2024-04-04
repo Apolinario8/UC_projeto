@@ -1,4 +1,4 @@
-Lipid: sqdg160 -> Sulfoquinovosyldiacylglycerol ()                             ?????????????????
+Lipid: sqdg160 -> Sulfoquinovosyldiacylglycerol ()                             
 FattyAcids:  1-"hexadecanoyl-CoA", 2-"hexadecanoyl-CoA"
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
